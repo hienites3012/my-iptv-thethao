@@ -1,7 +1,3 @@
 #EXTM3U
 #EXTINF:-1 group-title="KÊNH TEST",🟢 Kênh Test IPTV (VTV3 HD)
 http://cdn.vtvall.vn/vtv3/index.m3u8
-#EXTINF:-1 group-title="Thể Thao Dự Phòng",⚽ VTV5 HD - Thể Thao
-http://cdn.vtvall.vn/vtv5/index.m3u8
-#EXTINF:-1 group-title="Thể Thao Dự Phòng",⚽ VTV6 / VTV Cần Thơ
-http://cdn.vtvall.vn/vtv6/index.m3u8
