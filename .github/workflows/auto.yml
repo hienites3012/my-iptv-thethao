@@ -2,36 +2,35 @@ name: Auto Crawl Football IPTV
 
 on:
   schedule:
-    - cron: '*/30 * * * *'
+    - cron: '0 */2 * * *'
   workflow_dispatch:
-
-permissions:
-  contents: write
 
 jobs:
   build:
     runs-on: ubuntu-latest
 
     steps:
-      - name: Checkout repository
+      - name: Checkout Repository
         uses: actions/checkout@v4
-        with:
-          token: ${{ secrets.GITHUB_TOKEN }}
 
       - name: Set up Python
         uses: actions/setup-python@v5
         with:
           python-version: '3.10'
 
-      - name: Install dependencies
+      - name: Install Dependencies & Playwright
         run: |
-          pip install curl_cffi requests
+          python -m pip install --upgrade pip
+          pip install playwright curl_cffi
+          playwright install --with-deps chromium
 
-      - name: Run script
+      - name: Run Scraper Script
         run: python update_iptv.py
 
-      - name: Commit and Push playlist
-        uses: stefanzweifel/git-auto-commit-action@v5
-        with:
-          commit_message: "Auto update football matches"
-          file_pattern: "playlist.m3u"
+      - name: Commit and Push Updated Playlist
+        run: |
+          git config --global user.name "github-actions[bot]"
+          git config --global user.email "github-actions[bot]@users.noreply.github.com"
+          git add playlist.m3u
+          git commit -m "Auto-update IPTV playlist" || exit 0
+          git push
