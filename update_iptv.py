@@ -3,7 +3,7 @@ from datetime import datetime
 from curl_cffi import requests
 
 def fetch_football_matches():
-    print("⏳ Đang cào danh sách trận đấu bóng đá từ Server Quốc tế...")
+    print("⏳ Đang cào danh sách trận đấu bóng đá từ Server...")
     
     headers = {
         "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) Chrome/124.0.0.0 Safari/537.36",
@@ -11,7 +11,6 @@ def fetch_football_matches():
         "Accept": "application/json, text/plain, */*"
     }
 
-    # API nguồn bóng đá thực tế
     api_urls = [
         "https://api.xoilac.live/api/match/featured",
         "https://api.v2.xoilac.tv/api/match/featured"
@@ -53,16 +52,14 @@ def fetch_football_matches():
         except Exception as e:
             print(f"⚠️ Nguồn {url} gặp lỗi: {e}")
 
+    # Kể cả không cào được trận nào cũng ghi tiêu đề để không bị lỗi rỗng file
     return m3u_lines
 
 def main():
     lines = fetch_football_matches()
-    if len(lines) > 1:
-        with open("playlist.m3u", "w", encoding="utf-8") as f:
-            f.writelines(lines)
-        print(f"🎉 Hoàn tất cào dữ liệu lúc {datetime.now().strftime('%H:%M %d/%m/%Y')}")
-    else:
-        print("❌ Thất bại: Không lấy được trận nào.")
+    with open("playlist.m3u", "w", encoding="utf-8") as f:
+        f.writelines(lines)
+    print(f"🎉 Hoàn tất cào dữ liệu lúc {datetime.now().strftime('%H:%M %d/%m/%Y')}")
 
 if __name__ == "__main__":
     main()

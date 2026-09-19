@@ -15,6 +15,8 @@ jobs:
     steps:
       - name: Checkout repository
         uses: actions/checkout@v4
+        with:
+          token: ${{ secrets.GITHUB_TOKEN }}
 
       - name: Set up Python
         uses: actions/setup-python@v5
@@ -28,10 +30,8 @@ jobs:
       - name: Run script
         run: python update_iptv.py
 
-      - name: Commit and Push changes
-        run: |
-          git config --global user.name "github-actions[bot]"
-          git config --global user.email "github-actions[bot]@users.noreply.github.com"
-          git add playlist.m3u
-          git commit -m "Auto update football matches" || exit 0
-          git push
+      - name: Commit and Push playlist
+        uses: stefanzweifel/git-auto-commit-action@v5
+        with:
+          commit_message: "Auto update football matches"
+          file_pattern: "playlist.m3u"
