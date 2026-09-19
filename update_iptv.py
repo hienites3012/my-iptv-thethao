@@ -1,94 +1,104 @@
+import re
 import json
-import time
 from datetime import datetime
 from curl_cffi import requests
 
 USER_AGENT = "Mozilla/5.0 (Windows NT 10.0; Win64; x64) Chrome/124.0.0.0 Safari/537.36"
 
-def get_headers(referer="https://google.com/"):
-    return {
-        "User-Agent": USER_AGENT,
-        "Referer": referer,
-        "Accept": "*/*"
-    }
-
-def fetch_football_matches():
-    print("⏳ Đang cào danh sách và cập nhật token cho các luồng IPTV...")
+def fetch_live_streams():
+    print("⏳ Đang quét trực tiếp các trang web bóng đá live...")
     
     m3u_lines = ["#EXTM3U\n"]
     
-    # 1. Thêm kênh Test chuẩn luôn mở được
+    # Kênh Test cố định
     m3u_lines.append('#EXTINF:-1 group-title="KÊNH TEST",🟢 Kênh Test IPTV (VTV3 HD)\n')
     m3u_lines.append("http://cdn.vtvall.vn/vtv3/index.m3u8\n")
 
+    # Danh sách các web bóng đá trực tiếp Việt Nam hiện hành
     sources = [
-        {"name": "Xôi Lạc Z TV", "url": "https://api.xoilac.com/api/match/featured", "referer": "https://xoilac.com/"},
-        {"name": "Bia Ôm TV", "url": "https://api.v2.xoilac.tv/api/match/featured", "referer": "https://xbdbotv.live/"},
-        {"name": "Giờ Vàng TV", "url": "https://api.keobongvip.digital/api/matches", "referer": "https://keobongvip.digital/"}
+        {"name": "Xôi Lạc TV", "url": "https://xoilac365.tv", "referer": "https://xoilac365.tv/"},
+        {"name": "Bia Ôm TV", "url": "https://xbdbotv.live", "referer": "https://xbdbotv.live/"},
+        {"name": "Thập Cẩm TV", "url": "https://thapcam.net", "referer": "https://thapcam.net/"}
     ]
 
-    match_count = 0
+    total_channels = 0
+
+    headers = {
+        "User-Agent": USER_AGENT,
+        "Accept": "text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8",
+        "Accept-Language": "vi-VN,vi;q=0.9,en-US;q=0.8,en;q=0.7",
+    }
 
     for src in sources:
         try:
-            res = requests.get(src["url"], headers=get_headers(src["referer"]), impersonate="chrome120", timeout=8)
+            # Giả lập Chrome vượt WAF/Cloudflare để tải HTML gốc
+            res = requests.get(src["url"], headers=headers, impersonate="chrome120", timeout=10)
             if res.status_code == 200:
-                data = res.json()
-                items = data.get("data") or data.get("matches") or (data if isinstance(data, list) else [])
+                html = res.text
+                
+                # Tìm các chuỗi JSON chứa thông tin trận đấu nhúng trong code JS của trang web
+                json_matches = re.findall(r'window\.__DATA__\s*=\s*(\{.*?\});', html) or \
+                               re.findall(r'var\s+matches\s*=\s*(\[.*?\]);', html) or \
+                               re.findall(r'__NEXT_DATA__"\s*type="application/json">(\{.*?\})</script>', html)
 
-                for match in items:
-                    home = match.get("home_name") or match.get("home", {}).get("name", "Đội nhà")
-                    away = match.get("away_name") or match.get("away", {}).get("name", "Đội khách")
-                    time_str = match.get("match_time") or match.get("time", "Đang đá")
-                    blv = match.get("commentator") or match.get("blv", "BLV")
-                    logo = match.get("logo") or match.get("home_logo") or ""
-                    
-                    is_live = match.get("is_live", False)
-                    status = "🟢 LIVE" if is_live else "⏰"
-
-                    links = match.get("play_urls") or match.get("links", []) or []
-                    for idx, item in enumerate(links):
-                        stream_url = ""
-                        server = f"Server {idx+1}"
-
-                        if isinstance(item, dict):
-                            stream_url = item.get("url") or item.get("link", "")
-                            server = item.get("name") or server
-                        elif isinstance(item, str):
-                            stream_url = item
-
-                        if stream_url and stream_url.startswith("http"):
-                            # Ưu tiên lấy định dạng m3u8 thay vì flv
-                            logo_attr = f'tvg-logo="{logo}" ' if logo else ""
-                            title = f"{status} [{time_str}] {home} vs {away} - {server} ({blv})"
+                if json_matches:
+                    for raw_json in json_matches:
+                        try:
+                            data = json.loads(raw_json)
+                            # Bóc tách dữ liệu nếu là Next.js data structure
+                            if "props" in data:
+                                data = data.get("props", {}).get("pageProps", {}).get("matches", [])
                             
-                            # Ghi cấu hình Header vào playlist để IPTV Player đọc được
-                            m3u_lines.append(f'#EXTINF:-1 {logo_attr}group-title="{src["name"]}",{title}\n')
-                            m3u_lines.append(f'#EXTVLCOPT:http-user-agent={USER_AGENT}\n')
-                            m3u_lines.append(f'#EXTVLCOPT:http-referrer={src["referer"]}\n')
-                            m3u_lines.append(f"{stream_url}\n")
-                            match_count += 1
+                            if isinstance(data, list):
+                                for item in data:
+                                    home = item.get("home_name") or item.get("homeTeam", {}).get("name", "Đội nhà")
+                                    away = item.get("away_name") or item.get("awayTeam", {}).get("name", "Đội khách")
+                                    time_str = item.get("match_time") or item.get("time", "Live")
+                                    blv = item.get("commentator") or item.get("blv", "")
+                                    logo = item.get("home_logo") or item.get("logo", "")
+                                    
+                                    links = item.get("links") or item.get("play_urls") or []
+                                    for idx, l in enumerate(links):
+                                        url_stream = l.get("url") if isinstance(l, dict) else l
+                                        server = l.get("name", f"Server {idx+1}") if isinstance(l, dict) else f"Server {idx+1}"
+                                        
+                                        if url_stream and ("m3u8" in url_stream or "flv" in url_stream):
+                                            title = f"🟢 [{time_str}] {home} vs {away} - {server}"
+                                            if blv:
+                                                title += f" ({blv})"
+                                                
+                                            logo_attr = f'tvg-logo="{logo}" ' if logo else ""
+                                            m3u_lines.append(f'#EXTINF:-1 {logo_attr}group-title="{src["name"]}",{title}\n')
+                                            m3u_lines.append(f'#EXTVLCOPT:http-user-agent={USER_AGENT}\n')
+                                            m3u_lines.append(f'#EXTVLCOPT:http-referrer={src["referer"]}\n')
+                                            m3u_lines.append(f"{url_stream}\n")
+                                            total_channels += 1
+                        except Exception:
+                            continue
+
+                # Phương án 2: Quét Regex trực tiếp các URL Stream .m3u8 / .flv nằm trong HTML
+                if total_channels == 0:
+                    stream_urls = re.findall(r'https?://[^\s\'"]+\.(?:m3u8|flv)[^\s\'"]*', html)
+                    stream_urls = list(set(stream_urls)) # Lọc trùng
+                    
+                    for idx, url_stream in enumerate(stream_urls):
+                        m3u_lines.append(f'#EXTINF:-1 group-title="{src["name"]}",🟢 Luồng trực tiếp {idx+1}\n')
+                        m3u_lines.append(f'#EXTVLCOPT:http-user-agent={USER_AGENT}\n')
+                        m3u_lines.append(f'#EXTVLCOPT:http-referrer={src["referer"]}\n')
+                        m3u_lines.append(f"{url_stream}\n")
+                        total_channels += 1
+
         except Exception as e:
-            print(f"⚠️ Nguồn {src['name']} lỗi: {e}")
+            print(f"⚠️ Lỗi quét {src['name']}: {e}")
 
-    # 2. Nếu tại thời điểm cào không có trận nào live, thêm kênh truyền hình thể thao dự phòng
-    if match_count == 0:
-        print("ℹ️ Hiện không có trận đấu trực tiếp, thêm danh sách kênh thể thao dự phòng...")
-        backup_channels = [
-            ("VTV5 HD - Thể Thao", "http://cdn.vtvall.vn/vtv5/index.m3u8"),
-            ("VTV6 / VTV Cần Thơ", "http://cdn.vtvall.vn/vtv6/index.m3u8"),
-        ]
-        for name, url in backup_channels:
-            m3u_lines.append(f'#EXTINF:-1 group-title="Thể Thao Dự Phòng",⚽ {name}\n')
-            m3u_lines.append(f"{url}\n")
-
+    print(f"✅ Bóc tách thành công {total_channels} luồng phát bóng đá.")
     return m3u_lines
 
 def main():
-    lines = fetch_football_matches()
+    lines = fetch_live_streams()
     with open("playlist.m3u", "w", encoding="utf-8") as f:
         f.writelines(lines)
-    print(f"🎉 Đã cập nhật xong file playlist.m3u lúc {datetime.now().strftime('%H:%M %d/%m/%Y')}")
+    print(f"🎉 Hoàn tất cập nhật playlist.m3u lúc {datetime.now().strftime('%H:%M %d/%m/%Y')}")
 
 if __name__ == "__main__":
     main()
