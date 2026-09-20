@@ -1,14 +1,19 @@
 #EXTM3U
-#EXTINF:-1 group-title="HỆ THỐNG",🔄 Cập nhật lần cuối: 22:14:31 19/09/2026
+#EXTINF:-1 group-title="HỆ THỐNG",🔄 Cập nhật hệ thống: 00:07:24 20/09/2026
 http://cdn.vtvall.vn/vtv3/index.m3u8
-#EXTINF:-1 group-title="KÊNH TEST",🟢 Kênh Test IPTV (VTV3 HD)
-http://cdn.vtvall.vn/vtv3/index.m3u8
-#EXTINF:-1 group-title="Vua Sân Cỏ TV",🟢 20:45 ⚽ Arkadag FK vs Al-Muharraq (Tôn Quyền)
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) Chrome/124.0.0.0 Safari/537.36
-https://cdn-global.ebaclofen.org/vsc/jonhny5/index.m3u8
-#EXTINF:-1 group-title="Bia Ôm TV",02:00 ⚽ Liverpool vs Tottenham Hotspur [HLS]
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) Chrome/124.0.0.0 Safari/537.36
-https://cdnhls.xbdbotv.live/live/MTk4NzI1NjE6dWppY2ViaXFnN2Fmazdhendla3Q3azE3Onp0cTFxZTZ5NDhtbGNiczB0cmFoc3dpbQ/index.m3u8
-#EXTINF:-1 group-title="Xôi Lạc Z TV",02:00 ⚽ Ipswich Town vs Arsenal (HD NICK)
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) Chrome/124.0.0.0 Safari/537.36
-https://live2.domaincdn.cc/livecdn/channel-5.flv
+#EXTINF:-1 tvg-logo="https://d1c0s7hi3ugzoc.cloudfront.net/teams/genoa-102" group-title="Bia Ôm TV",🟡 23:00 15/09 ⚽ Genoa vs Südtirol (Lẩu Ếch) [hls]
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Safari/537.36
+#EXTVLCOPT:http-referrer=https://google.com
+https://cdnhls.xbdbotv.live/live/MTk3MjgzNzM6YThsY2E2YTk4dWpna3Q2bXcydDZwYXRxOnplMHpzd3lvYXRyd25xNzQxcHhjNGpyYw/index.m3u8
+#EXTINF:-1 tvg-logo="https://d1c0s7hi3ugzoc.cloudfront.net/teams/al-ain-7780" group-title="Bia Ôm TV",🟡 23:00 15/09 ⚽ Al Ain vs Al Nassr (NEM NƯỚNG) [hls]
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Safari/537.36
+#EXTVLCOPT:http-referrer=https://google.com
+https://cdnhls.xbdbotv.live/live/MTk4NjcwNDc6dWppY2ViaXFnN2Fmazdhendla3Q3azE3OmR1NDE5eDRxN3J6MGQ3bDEya2xyajhoMg/index.m3u8
+#EXTINF:-1 tvg-logo="https://imgts.sportpulseapiz.com/football/team/4wyrn4h850yq86p/image/small" group-title="Xôi Lạc Z TV",🟡 23:00 15/09 ⚽ Al-Ain FC vs Al Nassr (ROY)
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Safari/537.36
+#EXTVLCOPT:http-referrer=https://google.com
+https://live2.zundrixmediapipeline.com/live/channel1.flv
+#EXTINF:-1 tvg-logo="https://media.chuoichientv.net/media/uploads/20250623_142148_996053df.png" group-title="Chuối Chiên TV",🟢 20:45 15/09 ⚽ Arkadag vs Muharraq (Chuối Lá) [FHD] [hls]
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Safari/537.36
+#EXTVLCOPT:http-referrer=https://google.com
+https://stm9ee346727718.stream.hdplaylink.com/cctvlive/chuoilahd/playlist.m3u8
