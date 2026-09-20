@@ -1,117 +1,106 @@
-import os
+import requests
 import re
-import json
-import time
 from datetime import datetime
-from curl_cffi import requests
+from concurrent.futures import ThreadPoolExecutor
 
+SOURCE_URL = "https://thcoban.github.io/thtt/tttt.m3u"
 USER_AGENT = "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Safari/537.36"
 
-def get_headers(referer="https://google.com"):
-    return {
+def check_link_alive(channel):
+    """Kiểm tra xem link luồng phát trực tiếp có còn sống hay không"""
+    url = channel['url']
+    headers = {
         "User-Agent": USER_AGENT,
-        "Referer": referer,
-        "Accept": "application/json, text/plain, */*",
-        "Origin": referer.rstrip("/")
+        "Referer": channel.get('referer', 'https://google.com')
     }
-
-def parse_xoilac_matches():
-    """Cào danh sách trận đấu + link xem mới nhất từ hệ thống Xôi Lạc / Bánh Mì / Bia Ôm"""
-    matches = []
     
-    # Danh sách các Gateway API cập nhật trận đấu theo ngày
-    api_endpoints = [
-        {
-            "group": "Xôi Lạc TV",
-            "url": "https://api.vebo.xyz/api/match/featured",
-            "referer": "https://vebo.xyz/"
-        },
-        {
-            "group": "Bia Ôm TV",
-            "url": "https://api.xbdbotv.live/api/v1/match/live-streams",
-            "referer": "https://xbdbotv.live/"
-        }
-    ]
+    try:
+        # Gửi request HEAD/GET nhanh timeout 4 giây để kiểm tra luồng
+        response = requests.get(url, headers=headers, stream=True, timeout=4, verify=False)
+        if response.status_code == 200:
+            return channel
+    except Exception:
+        pass
+    return None
 
-    for ep in api_endpoints:
-        try:
-            res = requests.get(ep["url"], headers=get_headers(ep["referer"]), impersonate="chrome120", timeout=10)
-            if res.status_code != 200:
-                continue
+def parse_and_filter_m3u():
+    print(f"⏳ Đang tải dữ liệu từ nguồn: {SOURCE_URL}...")
+    try:
+        res = requests.get(SOURCE_URL, timeout=10)
+        res.encoding = 'utf-8'
+        if res.status_code != 200:
+            print("❌ Không thể tải được file nguồn.")
+            return []
+    except Exception as e:
+        print(f"❌ Lỗi kết nối nguồn: {e}")
+        return []
+
+    lines = res.text.splitlines()
+    raw_channels = []
+    
+    i = 0
+    while i < len(lines):
+        line = lines[i].strip()
+        if line.startswith("#EXTINF:"):
+            extinf = line
+            user_agent = USER_AGENT
+            referer = "https://google.com"
+            stream_url = ""
             
-            data = res.json()
-            items = data.get("data") or data.get("rows") or (data if isinstance(data, list) else [])
+            # Đọc các thuộc tính bổ sung nếu có (#EXTVLCOPT)
+            j = i + 1
+            while j < len(lines):
+                next_line = lines[j].strip()
+                if next_line.startswith("#EXTVLCOPT:http-user-agent="):
+                    user_agent = next_line.split("=", 1)[1]
+                elif next_line.startswith("#EXTVLCOPT:http-referrer="):
+                    referer = next_line.split("=", 1)[1]
+                elif next_line and not next_line.startswith("#"):
+                    stream_url = next_line
+                    break
+                j += 1
+            
+            if stream_url:
+                raw_channels.append({
+                    "extinf": extinf,
+                    "user_agent": user_agent,
+                    "referer": referer,
+                    "url": stream_url
+                })
+            i = j
+        i += 1
 
-            for match in items:
-                # Bóc tách thông tin trận đấu
-                home = match.get("home_name") or match.get("homeTeam", {}).get("name", "Home")
-                away = match.get("away_name") or match.get("awayTeam", {}).get("name", "Away")
-                commentator = match.get("commentator") or match.get("blv") or match.get("author", "")
-                
-                # Giờ thi đấu
-                match_time = match.get("match_time") or match.get("time", "")
-                if isinstance(match_time, (int, float)):
-                    time_str = datetime.fromtimestamp(match_time).strftime("%H:%M %d/%m")
-                else:
-                    time_str = str(match_time) if match_time else datetime.now().strftime("%H:%M %d/%m")
+    print(f"📊 Tìm thấy {len(raw_channels)} kênh từ nguồn. Bắt đầu kiểm tra kênh sống...")
 
-                # Format tiêu đề chuẩn: 🟢 [Giờ] ⚽ [Đội A] vs [Đội B] ([BLV])
-                blv_str = f" ({commentator})" if commentator else ""
-                title = f"🟢 {time_str} ⚽ {home} vs {away}{blv_str}"
-                
-                logo = match.get("home_logo") or match.get("logo") or ""
-                
-                # Lấy danh sách link phát sóng
-                links = match.get("links") or match.get("play_urls") or []
-                if not links and (match.get("play_url") or match.get("stream_url")):
-                    links = [{"url": match.get("play_url") or match.get("stream_url"), "name": "HD"}]
+    # Sử dụng đa luồng (20 threads) để kiểm tra nhanh danh sách kênh
+    alive_channels = []
+    with ThreadPoolExecutor(max_workers=20) as executor:
+        results = executor.map(check_link_alive, raw_channels)
+        for res in results:
+            if res:
+                alive_channels.append(res)
 
-                for idx, link in enumerate(links):
-                    stream_url = link.get("url") or link.get("play_url") if isinstance(link, dict) else str(link)
-                    if not stream_url or not stream_url.startswith("http"):
-                        continue
-                    
-                    quality = link.get("name") if isinstance(link, dict) and link.get("name") else f"Link {idx+1}"
-                    full_title = f"{title} [{quality}]"
-
-                    matches.append({
-                        "group": ep["group"],
-                        "title": full_title,
-                        "logo": logo,
-                        "url": stream_url,
-                        "referer": ep["referer"]
-                    })
-        except Exception as e:
-            print(f"Lỗi khi cào dữ liệu từ {ep['group']}: {e}")
-
-    return matches
+    print(f"✅ Đã lọc xong: {len(alive_channels)}/{len(raw_channels)} kênh đang hoạt động tốt.")
+    return alive_channels
 
 def main():
     now_str = datetime.now().strftime("%H:%M:%S %d/%m/%Y")
-    print(f"⏳ Đang cập nhật danh sách IPTV lúc {now_str}...")
+    alive_channels = parse_and_filter_m3u()
 
-    m3u_content = [
+    m3u_lines = [
         "#EXTM3U\n",
         f'#EXTINF:-1 group-title="HỆ THỐNG",🔄 Cập nhật hệ thống: {now_str}\n',
         "http://cdn.vtvall.vn/vtv3/index.m3u8\n"
     ]
 
-    live_matches = parse_xoilac_matches()
-
-    if not live_matches:
-        print("⚠️ Không lấy được dữ liệu mới từ API. Kiểm tra lại kết nối mạng hoặc nguồn API.")
-    else:
-        for item in live_matches:
-            logo_attr = f' tvg-logo="{item["logo"]}"' if item["logo"] else ""
-            m3u_content.append(f'#EXTINF:-1{logo_attr} group-title="{item["group"]}",{item["title"]}\n')
-            m3u_content.append(f'#EXTVLCOPT:http-user-agent={USER_AGENT}\n')
-            m3u_content.append(f'#EXTVLCOPT:http-referrer={item["referer"]}\n')
-            m3u_content.append(f'{item["url"]}\n')
+    for ch in alive_channels:
+        m3u_lines.append(f"{ch['extinf']}\n")
+        m3u_lines.append(f"#EXTVLCOPT:http-user-agent={ch['user_agent']}\n")
+        m3u_lines.append(f"#EXTVLCOPT:http-referrer={ch['referer']}\n")
+        m3u_lines.append(f"{ch['url']}\n")
 
     with open("playlist.m3u", "w", encoding="utf-8") as f:
-        f.writelines(m3u_content)
-
-    print(f"✅ Hoàn tất! Đã ghi {len(live_matches)} trận đấu mới nhất vào playlist.m3u")
+        f.writelines(m3u_lines)
 
 if __name__ == "__main__":
     main()
