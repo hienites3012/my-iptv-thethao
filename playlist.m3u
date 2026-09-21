@@ -1,7 +1,19 @@
 #EXTM3U
-#EXTINF:-1 group-title="HỆ THỐNG",🔄 Cập nhật hệ thống: 02:15:28 21/09/2026
+#EXTINF:-1 group-title="HỆ THỐNG",🔄 Cập nhật hệ thống: 04:16:11 21/09/2026
 http://cdn.vtvall.vn/vtv3/index.m3u8
-#EXTINF:-1 tvg-logo="https://media.chuoichientv.net/media/20250829_080231_89f500ea.gif" group-title="Chuối Chiên TV" , 11:00 21/09 🏐 Indonesia vs Vietnam W (Chuối Tây) [FHD] [hls]
+#EXTINF:-1 tvg-logo="https://khandai1.link/media/teams/logos/OIP_hdpF9Rm.jpg" group-title="Khán Đài TV" , 🟢 11:00 21/09 🏐 Việt Nam vs Indonesia (Lee Sin) [hls]
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Safari/537.36
+#EXTVLCOPT:http-referrer=https://khandai1.link/
+https://luong.phaohoa.live/live/phaohoa10/index.m3u8?expire=1815822079&sign=9a0c1792a57466ace2166ab62a2ea149
+#EXTINF:-1 tvg-logo="https://khandai1.link/media/teams/logos/team_11934.jpg" group-title="Khán Đài TV" , 17:30 21/09 ⚽ Vietnam W vs Thailand W (Lee Sin) [hls]
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Safari/537.36
+#EXTVLCOPT:http-referrer=https://khandai1.link/
+https://luong.phaohoa.live/live/phaohoa10/index.m3u8?expire=1815822079&sign=9a0c1792a57466ace2166ab62a2ea149
+#EXTINF:-1 tvg-logo="https://khandai1.link/media/teams/logos/OIP_oeLkAjM.jpg" group-title="Khán Đài TV" , 02:00 22/09 🏐 Slovenia vs Serbia (Lee Sin) [hls]
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Safari/537.36
+#EXTVLCOPT:http-referrer=https://khandai1.link/
+https://luong.phaohoa.live/live/phaohoa10/index.m3u8?expire=1815822079&sign=9a0c1792a57466ace2166ab62a2ea149
+#EXTINF:-1 tvg-logo="https://media.chuoichientv.net/media/20250829_080231_89f500ea.gif" group-title="Chuối Chiên TV" , 🟢 11:00 21/09 🏐 Indonesia vs Vietnam W (Chuối Tây) [FHD] [hls]
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Safari/537.36
 #EXTVLCOPT:http-referrer=https://live.chuoichien.tv/
 https://stm9ee346727718.stream.hdplaylink.com/cctvlive/chuoitayhd/playlist.m3u8
@@ -65,34 +77,14 @@ https://stm9ee346727718.stream.hdplaylink.com/cctvlive/chuoichaohd/playlist.m3u8
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Safari/537.36
 #EXTVLCOPT:http-referrer=https://live.chuoichien.tv/
 https://stm9ee346727718.stream.hdplaylink.com/cctvlive/chuoitohd/playlist.m3u8
-#EXTINF:-1 tvg-logo="https://thumb.wikimedia.org/wikipedia/vi/thumb/1/14/2026_Asian_Games_logo.png/250px-2026_Asian_Games_logo.png?utm_source=vi.wikipedia.org&utm_campaign=parser&utm_content=thumbnail" group-title="Giờ Vàng TV" , 🟢 07:00 21/09 ⚽ ASIAD 2026 vs ASIAD 2026 (BLV Túi Mù) [hls]
+#EXTINF:-1 tvg-logo="https://cdn.keobongvip.digital/images/basketball-teams/66a4c6ed1029c0338a50ad413bfaf118.jpg" group-title="Giờ Vàng TV" , 🟢 11:00 21/09 🏀 Mongolia (W) vs South Korea (W) (Vịt) [hls]
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Safari/537.36
 #EXTVLCOPT:http-referrer=https://google.com
-https://eqr2hdarxfliv.vcdn.cloud/1789838904_hd/1789838904_hd@720p.m3u8
-#EXTINF:-1 tvg-logo="https://ssl.gstatic.com/onebox/media/sports/logos/optimized/UVLlczXJQ1wxxKMT9ShJQw_96x96.png" group-title="Giờ Vàng TV" , 🟢 07:20 21/09 🎮 Kansas City Chiefs vs Indianapolis Colts (Riko) [hls]
+https://eqr2hdarxfliv.vcdn.cloud/1789928245_hd/1789928245_hd@720p.m3u8
+#EXTINF:-1 tvg-logo="https://ssl.gstatic.com/onebox/media/sports/logos/optimized/IUYV_ZAMxDdabQPzSpTJtg_96x96.png" group-title="Giờ Vàng TV" , 🟢 11:00 21/09 🏐 Việt Nam vs Indonesia (Sún) [hls]
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Safari/537.36
 #EXTVLCOPT:http-referrer=https://google.com
-https://eqr2hdarxfliv.vcdn.cloud/1789405256_hd/1789405256_hd@720p.m3u8
-#EXTINF:-1 tvg-logo="https://cdn.keobongvip.digital/images/basketball-teams/cbf9424df17d6e06d655dca78651d329.png" group-title="Giờ Vàng TV" , 🟢 08:00 21/09 🏀 Las Vegas Aces vs Seattle Storm (Vịt) [hls]
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Safari/537.36
-#EXTVLCOPT:http-referrer=https://google.com
-https://eqr2hdarxfliv.vcdn.cloud/1789953805_hd/1789953805_hd@720p.m3u8
-#EXTINF:-1 tvg-logo="https://images.keovip88.net/images/teams/llaneros-fc.png" group-title="Giờ Vàng TV" , 🟢 08:15 21/09 ⚽ Llaneros FC vs Atletico Nacional (Bón) [hls]
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Safari/537.36
-#EXTVLCOPT:http-referrer=https://google.com
-https://eqr2hdarxfliv.vcdn.cloud/1789928026_hd/1789928026_hd@720p.m3u8
-#EXTINF:-1 tvg-logo="https://images.keovip88.net/images/teams/queretaro-fc.png" group-title="Giờ Vàng TV" , 🟢 09:00 21/09 ⚽ Queretaro FC vs Club Leon (Bee) [hls]
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Safari/537.36
-#EXTVLCOPT:http-referrer=https://google.com
-https://eqr2hdarxfliv.vcdn.cloud/1789928054_hd/1789928054_hd@720p.m3u8
-#EXTINF:-1 tvg-logo="https://cdn.keobongvip.digital/images/basketball-teams/66a4c6ed1029c0338a50ad413bfaf118.jpg" group-title="Giờ Vàng TV" , 11:00 21/09 🏀 Mongolia (W) vs South Korea (W) (blv-vit) [hls]
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Safari/537.36
-#EXTVLCOPT:http-referrer=https://google.com
-https://freem3u.xyz/static/no-signal/low.m3u8
-#EXTINF:-1 tvg-logo="https://ssl.gstatic.com/onebox/media/sports/logos/optimized/IUYV_ZAMxDdabQPzSpTJtg_96x96.png" group-title="Giờ Vàng TV" , 11:00 21/09 🏐 Việt Nam vs Indonesia (blv-sun) [hls]
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Safari/537.36
-#EXTVLCOPT:http-referrer=https://google.com
-https://freem3u.xyz/static/no-signal/low.m3u8
+https://eqr2hdarxfliv.vcdn.cloud/1789928427_hd/1789928427_hd@720p.m3u8
 #EXTINF:-1 tvg-logo="https://images.keovip88.net/images/teams/bangladesh-w.png" group-title="Giờ Vàng TV" , 14:00 21/09 ⚽ Bangladesh Nữ vs Myanmar Nữ (blv Mù) [hls]
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Safari/537.36
 #EXTVLCOPT:http-referrer=https://google.com
@@ -153,342 +145,146 @@ https://freem3u.xyz/static/no-signal/low.m3u8
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Safari/537.36
 #EXTVLCOPT:http-referrer=https://google.com
 https://freem3u.xyz/static/no-signal/low.m3u8
-#EXTINF:-1 tvg-logo="https://s8tvkc.top/wp-json/s8-image/34facab8-e220-46ec-a23d-2393582b88fe" group-title="S8 TV" , 🟢 09:10 21/09 ⚽ Queretaro FC vs Club Leon (NGƯỜI NẶN) [hls]
+#EXTINF:-1 tvg-logo="https://static.flashscore.com/res/image/data/ELyZwCYA-SKQzk2kD.png" group-title="Giờ Vàng TV" , 22:00 21/09 ⚽ Umm-Salal vs Al-Kharitiyath (blv-mason) [hls]
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Safari/537.36
 #EXTVLCOPT:http-referrer=https://google.com
-https://hls.lauthaitv.cc/live/quere-leon-mexliga/index.m3u8
-#EXTINF:-1 tvg-logo="https://s8tvkc.top/wp-json/s8-image/34facab8-e220-46ec-a23d-2393582b88fe" group-title="S8 TV" , 🟢 09:10 21/09 ⚽ Queretaro FC vs Club Leon (NGƯỜI NẶN) [flv]
+https://freem3u.xyz/static/no-signal/low.m3u8
+#EXTINF:-1 tvg-logo="https://images.keovip88.net/images/teams/xorazm-urganch.png" group-title="Giờ Vàng TV" , 22:15 21/09 ⚽ Xorazm Urganch vs Qizilqum Zarafshon (blv-sup) [hls]
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Safari/537.36
 #EXTVLCOPT:http-referrer=https://google.com
-https://flv.lauthaitv.cc/live/quere-leon-mexliga.flv
-#EXTINF:-1 tvg-logo="https://images.fotmob.com/image_resources/logo/teamlogo/1943.png" group-title="Sao Kê TV" , 🟢 09:10 21/09 ⚽ Querétaro FC vs León (Quang Huy) [hls]
+https://freem3u.xyz/static/no-signal/low.m3u8
+#EXTINF:-1 tvg-logo="https://media.chuoichientv.net/media/20250829_080231_89f500ea.gif" group-title="Sao Kê TV" , 🟢 11:00 21/09 ⚽ Indonesia vs Vietnam W (Teppy) [hls]
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Safari/537.36
 #EXTVLCOPT:http-referrer=https://sk.mediastation.live/
-https://wtyi0525.edgemaxcdn.org/live/x1-hd-1111/playlist.m3u8
-#EXTINF:-1 tvg-logo="https://images.fotmob.com/image_resources/logo/teamlogo/188187.png" group-title="Sao Kê TV" , 01:00 22/09 ⚽ Petrolul Ploiești vs Csikszereda Miercurea Ciuc (Quang Huy) [hls]
+https://wtyi0525.edgemaxcdn.org/live/x31-hd-1111/playlist.m3u8
+#EXTINF:-1 tvg-logo="https://static.flashscore.com/res/image/data/dd8I1T7k-xQxQqqtQ.png" group-title="Sao Kê TV" , 20:00 21/09 ⚽ South Africa U20 vs Angola U20 (Teppy) [hls]
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Safari/537.36
 #EXTVLCOPT:http-referrer=https://sk.mediastation.live/
-https://wtyi0525.edgemaxcdn.org/live/x1-hd-1111/playlist.m3u8
-#EXTINF:-1 tvg-logo="https://imgts.sportpulseapiz.com/football/team/9vjxm8ghd6wr6od/image/small" group-title="Xôi Lạc Z TV" , 🟢 09:05 21/09 ⚽ Queretaro FC vs Club Leon (ROY)
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Linux; Android 6.0; Nexus 5 Build/MRA58N) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/144.0.0.0 Mobile Safari/537.36
-#EXTVLCOPT:http-referrer=https://xlz.domainkqt.cc/
-https://live2.zundrixmediapipeline.com/live/channel1.flv
+https://wtyi0525.edgemaxcdn.org/live/x31-hd-1111/playlist.m3u8
+#EXTINF:-1 tvg-logo="https://images.fotmob.com/image_resources/logo/teamlogo/10082.png" group-title="Sao Kê TV" , 07:15 22/09 ⚽ Lanús vs Estudiantes (Teppy) [hls]
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Safari/537.36
+#EXTVLCOPT:http-referrer=https://sk.mediastation.live/
+https://wtyi0525.edgemaxcdn.org/live/x31-hd-1111/playlist.m3u8
 #EXTINF:-1 tvg-logo="https://imgts.sportpulseapiz.com/football/team/9vjxm8ghd6wr6od/image/small" group-title="Xôi Lạc Z TV" , 🟢 09:05 21/09 ⚽ Queretaro FC vs Club Leon (HD ROY)
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Linux; Android 6.0; Nexus 5 Build/MRA58N) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/144.0.0.0 Mobile Safari/537.36
 #EXTVLCOPT:http-referrer=https://xlz.domainkqt.cc/
-https://live2.domaincdn.cc/livecdn/channel-1.flv?auth_key=3000001789956058-0-0-cc1cd768e51c44481850f5476e34933f
-#EXTINF:-1 tvg-logo="https://imgts.sportpulseapiz.com/football/team/z8yomo4hpy5q0j6/image/small" group-title="Xôi Lạc Z TV" , 🟢 07:00 21/09 ⚽ Pachuca vs Club Tijuana (HD KEN)
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Linux; Android 6.0; Nexus 5 Build/MRA58N) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/144.0.0.0 Mobile Safari/537.36
-#EXTVLCOPT:http-referrer=https://xlz.domainkqt.cc/
-https://live2.domaincdn.cc/livecdn/channel-18.flv?auth_key=3000001789956082-0-0-0a7d407d19efee1eecd489ac0c5ed749
-#EXTINF:-1 tvg-logo="https://imgts.sportpulseapiz.com/football/team/z318q66h9p6qo9j/image/small" group-title="Xôi Lạc Z TV" , 🟢 07:00 21/09 ⚽ Toluca vs Santos Laguna (ASTRA)
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Linux; Android 6.0; Nexus 5 Build/MRA58N) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/144.0.0.0 Mobile Safari/537.36
-#EXTVLCOPT:http-referrer=https://xlz.domainkqt.cc/
-https://live2.zundrixmediapipeline.com/live/channel11.flv
-#EXTINF:-1 tvg-logo="https://imgts.sportpulseapiz.com/football/team/z318q66h9p6qo9j/image/small" group-title="Xôi Lạc Z TV" , 🟢 07:00 21/09 ⚽ Toluca vs Santos Laguna (HD ASTRA)
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Linux; Android 6.0; Nexus 5 Build/MRA58N) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/144.0.0.0 Mobile Safari/537.36
-#EXTVLCOPT:http-referrer=https://xlz.domainkqt.cc/
-https://live2.domaincdn.cc/livecdn/channel-11.flv?auth_key=3000001789956103-0-0-68abf6d1ccd3e57e7279d595a27301b1
-#EXTINF:-1 tvg-logo="https://imgts.sportpulseapiz.com/football/team/8y39mp1h8zjmojx/image/small" group-title="Xôi Lạc Z TV" , 🟢 07:30 21/09 ⚽ Velez Sarsfield vs Club Atletico Tigre (FELIX)
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Linux; Android 6.0; Nexus 5 Build/MRA58N) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/144.0.0.0 Mobile Safari/537.36
-#EXTVLCOPT:http-referrer=https://xlz.domainkqt.cc/
-https://live2.zundrixmediapipeline.com/live/channel24.flv
-#EXTINF:-1 tvg-logo="https://imgts.sportpulseapiz.com/football/team/8y39mp1h8zjmojx/image/small" group-title="Xôi Lạc Z TV" , 🟢 07:30 21/09 ⚽ Velez Sarsfield vs Club Atletico Tigre (HD FELIX)
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Linux; Android 6.0; Nexus 5 Build/MRA58N) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/144.0.0.0 Mobile Safari/537.36
-#EXTVLCOPT:http-referrer=https://xlz.domainkqt.cc/
-https://live2.domaincdn.cc/livecdn/channel-24.flv?auth_key=3000001789956112-0-0-c01ce1992d0fe2799fa1e07047872e53
-#EXTINF:-1 tvg-logo="https://imgts.sportpulseapiz.com/football/team/n54qllhe8p7qvy9/image/small" group-title="Xôi Lạc Z TV" , 🟢 08:15 21/09 ⚽ Llaneros FC vs Atl. Nacional (FILIP)
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Linux; Android 6.0; Nexus 5 Build/MRA58N) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/144.0.0.0 Mobile Safari/537.36
-#EXTVLCOPT:http-referrer=https://xlz.domainkqt.cc/
-https://live2.zundrixmediapipeline.com/live/channel19.flv
-#EXTINF:-1 tvg-logo="https://imgts.sportpulseapiz.com/football/team/n54qllhe8p7qvy9/image/small" group-title="Xôi Lạc Z TV" , 🟢 08:15 21/09 ⚽ Llaneros FC vs Atl. Nacional (HD FILIP)
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Linux; Android 6.0; Nexus 5 Build/MRA58N) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/144.0.0.0 Mobile Safari/537.36
-#EXTVLCOPT:http-referrer=https://xlz.domainkqt.cc/
-https://live2.domaincdn.cc/livecdn/channel-19.flv?auth_key=3000001789956136-0-0-87662b2e5cc1be31d12391a35481a94b
-#EXTINF:-1 tvg-logo="https://imgts.sportpulseapiz.com/basketball/team/8y39mp4t8x8mojx/image/small" group-title="Xôi Lạc Z TV" , 🟢 08:00 21/09 🏀 Nữ Las Vegas Aces vs Nữ Seattle Storm (TOMMY)
+https://live2.domaincdn.cc/livecdn/channel-1.flv?auth_key=3000001789963240-0-0-d3f8fd603abb0b22c5c238eee5701e47
+#EXTINF:-1 tvg-logo="https://imgts.sportpulseapiz.com/basketball/team/d23xmv1tn82mg8n/image/small" group-title="Xôi Lạc Z TV" , 🟢 11:00 21/09 🏀 Nữ Mông Cổ vs Nữ Hàn Quốc (TOMMY)
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Linux; Android 6.0; Nexus 5 Build/MRA58N) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/144.0.0.0 Mobile Safari/537.36
 #EXTVLCOPT:http-referrer=https://xlz.domainkqt.cc/
 https://live2.zundrixmediapipeline.com/live/channel29.flv
-#EXTINF:-1 tvg-logo="https://imgts.sportpulseapiz.com/basketball/team/8y39mp4t8x8mojx/image/small" group-title="Xôi Lạc Z TV" , 🟢 08:00 21/09 🏀 Nữ Las Vegas Aces vs Nữ Seattle Storm (HD TOMMY)
+#EXTINF:-1 tvg-logo="https://imgts.sportpulseapiz.com/basketball/team/d23xmv1tn82mg8n/image/small" group-title="Xôi Lạc Z TV" , 🟢 11:00 21/09 🏀 Nữ Mông Cổ vs Nữ Hàn Quốc (HD TOMMY)
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Linux; Android 6.0; Nexus 5 Build/MRA58N) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/144.0.0.0 Mobile Safari/537.36
 #EXTVLCOPT:http-referrer=https://xlz.domainkqt.cc/
-https://live2.domaincdn.cc/livecdn/channel-29.flv?auth_key=3000001789956143-0-0-cb66ff2f78d0f9e075a44f2d9678af4f
+https://live2.domaincdn.cc/livecdn/channel-29.flv?auth_key=3000001789963249-0-0-a08980eb3a2e6cd52a46a2e0fd5a60f4
 #EXTINF:-1 tvg-logo="https://imgts.sportpulseapiz.com/basketball/team/6ypq3kt0o52md7o/image/small" group-title="Xôi Lạc Z TV" , 🟢 18:00 17/08 🏀 Bulacan Kuyas vs GenSan Warriors (HD KOBE)
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Linux; Android 6.0; Nexus 5 Build/MRA58N) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/144.0.0.0 Mobile Safari/537.36
 #EXTVLCOPT:http-referrer=https://xlz.domainkqt.cc/
-https://live2.domaincdn.cc/livecdn/channel-27.flv?auth_key=3000001789956149-0-0-373cd7662b13ce34aaf11c7ab8dcb093
+https://live2.domaincdn.cc/livecdn/channel-27.flv?auth_key=3000001789963271-0-0-9aa7bd66ee9749bafe2fef06c934b98d
+#EXTINF:-1 tvg-logo="https://imgts.sportpulseapiz.com/tennis/team/2y8m4vfzxjgml07/image/small" group-title="Xôi Lạc Z TV" , 🟢 10:00 21/09 🥎 Daria Kasatkina vs Aliaksandra Sasnovich (LUCAS)
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Linux; Android 6.0; Nexus 5 Build/MRA58N) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/144.0.0.0 Mobile Safari/537.36
+#EXTVLCOPT:http-referrer=https://xlz.domainkqt.cc/
+https://live2.zundrixmediapipeline.com/live/channel31.flv
+#EXTINF:-1 tvg-logo="https://imgts.sportpulseapiz.com/tennis/team/2y8m4vfzxjgml07/image/small" group-title="Xôi Lạc Z TV" , 🟢 10:00 21/09 🥎 Daria Kasatkina vs Aliaksandra Sasnovich (HD LUCAS)
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Linux; Android 6.0; Nexus 5 Build/MRA58N) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/144.0.0.0 Mobile Safari/537.36
+#EXTVLCOPT:http-referrer=https://xlz.domainkqt.cc/
+https://live2.domaincdn.cc/livecdn/channel-31.flv?auth_key=3000001789963292-0-0-e56ba67940b2ca309d912a4de82b91e3
+#EXTINF:-1 tvg-logo="https://imgts.sportpulseapiz.com/tennis/team/4jwq2pfw657m0ve/image/small" group-title="Xôi Lạc Z TV" , 🟢 10:00 21/09 🥎 Yao Xinxin vs Maya Joint (VIC)
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Linux; Android 6.0; Nexus 5 Build/MRA58N) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/144.0.0.0 Mobile Safari/537.36
+#EXTVLCOPT:http-referrer=https://xlz.domainkqt.cc/
+https://live2.zundrixmediapipeline.com/live/channel32.flv
+#EXTINF:-1 tvg-logo="https://imgts.sportpulseapiz.com/tennis/team/4jwq2pfw657m0ve/image/small" group-title="Xôi Lạc Z TV" , 🟢 10:00 21/09 🥎 Yao Xinxin vs Maya Joint (HD VIC)
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Linux; Android 6.0; Nexus 5 Build/MRA58N) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/144.0.0.0 Mobile Safari/537.36
+#EXTVLCOPT:http-referrer=https://xlz.domainkqt.cc/
+https://live2.domaincdn.cc/livecdn/channel-32.flv?auth_key=3000001789963316-0-0-aaa4dfe0f84535adddf5096edade52ae
+#EXTINF:-1 tvg-logo="https://imgts.sportpulseapiz.com/volleyball/team/yl5ergdh9p4r8k0/image/small" group-title="Xôi Lạc Z TV" , 🟢 11:00 21/09 🏐 Nữ Indonesia vs Nữ Việt Nam (TYSON)
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Linux; Android 6.0; Nexus 5 Build/MRA58N) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/144.0.0.0 Mobile Safari/537.36
+#EXTVLCOPT:http-referrer=https://xlz.domainkqt.cc/
+https://live2.zundrixmediapipeline.com/live/channel33.flv
+#EXTINF:-1 tvg-logo="https://imgts.sportpulseapiz.com/volleyball/team/yl5ergdh9p4r8k0/image/small" group-title="Xôi Lạc Z TV" , 🟢 11:00 21/09 🏐 Nữ Indonesia vs Nữ Việt Nam (HD TYSON)
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Linux; Android 6.0; Nexus 5 Build/MRA58N) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/144.0.0.0 Mobile Safari/537.36
+#EXTVLCOPT:http-referrer=https://xlz.domainkqt.cc/
+https://live2.domaincdn.cc/livecdn/channel-33.flv?auth_key=3000001789963322-0-0-c913294ea7478f48e3307d2d7c2c69d6
+#EXTINF:-1 tvg-logo="https://imgts.sportpulseapiz.com/tennis/team/y39mpyf5ew2mojx/image/small" group-title="Xôi Lạc Z TV" , 🟡 11:30 21/09 🥎 Kristina Mladenovic vs Nao Hibino (LUCAS)
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Linux; Android 6.0; Nexus 5 Build/MRA58N) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/144.0.0.0 Mobile Safari/537.36
+#EXTVLCOPT:http-referrer=https://xlz.domainkqt.cc/
+https://live2.zundrixmediapipeline.com/live/channel31.flv
+#EXTINF:-1 tvg-logo="https://imgts.sportpulseapiz.com/tennis/team/y39mpyf5ew2mojx/image/small" group-title="Xôi Lạc Z TV" , 🟡 11:30 21/09 🥎 Kristina Mladenovic vs Nao Hibino (HD LUCAS)
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Linux; Android 6.0; Nexus 5 Build/MRA58N) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/144.0.0.0 Mobile Safari/537.36
+#EXTVLCOPT:http-referrer=https://xlz.domainkqt.cc/
+https://live2.domaincdn.cc/livecdn/channel-31.flv?auth_key=3000001789963330-0-0-127dfafd0a5fd1fc36d5876213bbc135
 #EXTINF:-1 tvg-logo="https://imgts.sportpulseapiz.com/football/team/k82rekhywl6repz/image/small" group-title="Xôi Lạc Z TV" , 13:00 21/09 ⚽ Okinawa SV vs Tiamo Hirakata (HD TOM)
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Linux; Android 6.0; Nexus 5 Build/MRA58N) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/144.0.0.0 Mobile Safari/537.36
 #EXTVLCOPT:http-referrer=https://xlz.domainkqt.cc/
-https://live2.domaincdn.cc/livecdn/channel-4.flv?auth_key=3000001789956162-0-0-3c095ea18e124a43d4166d5adac07a4a
-#EXTINF:-1 tvg-logo="https://imgts.sportpulseapiz.com/basketball/team/d23xmv1tn82mg8n/image/small" group-title="Xôi Lạc Z TV" , 11:00 21/09 🏀 Nữ Mông Cổ vs Nữ Hàn Quốc (TOMMY)
+https://live2.domaincdn.cc/livecdn/channel-4.flv?auth_key=3000001789963336-0-0-55ef77a5e67ab355408eb1e74dcbd731
+#EXTINF:-1 tvg-logo="https://imgts.sportpulseapiz.com/football/team/2y8m4zh3d53ql07/image/small" group-title="Xôi Lạc Z TV" , 14:00 21/09 ⚽ Nữ Uzbekistan vs Nữ Hồng Kông (HD FILIP)
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Linux; Android 6.0; Nexus 5 Build/MRA58N) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/144.0.0.0 Mobile Safari/537.36
+#EXTVLCOPT:http-referrer=https://xlz.domainkqt.cc/
+https://live2.domaincdn.cc/livecdn/channel-19.flv?auth_key=3000001789963348-0-0-8d55701d69d289b01f4e4c866f2b427f
+#EXTINF:-1 tvg-logo="https://imgts.sportpulseapiz.com/football/team/gy0or5jhv7zqwzv/image/small" group-title="Xôi Lạc Z TV" , 14:00 21/09 ⚽ Nữ Bangladesh vs Nữ Myanmar (HD KEN)
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Linux; Android 6.0; Nexus 5 Build/MRA58N) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/144.0.0.0 Mobile Safari/537.36
+#EXTVLCOPT:http-referrer=https://xlz.domainkqt.cc/
+https://live2.domaincdn.cc/livecdn/channel-18.flv?auth_key=3000001789963369-0-0-ae1ce2ee2c15b510b54a22838024f2e9
+#EXTINF:-1 tvg-logo="https://imgts.sportpulseapiz.com/football/team/pxwrxlhg5pwryk0/image/small" group-title="Xôi Lạc Z TV" , 14:00 21/09 ⚽ Nữ Hàn Quốc vs Nữ Triều Tiên (HD BRADY)
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Linux; Android 6.0; Nexus 5 Build/MRA58N) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/144.0.0.0 Mobile Safari/537.36
+#EXTVLCOPT:http-referrer=https://xlz.domainkqt.cc/
+https://live2.domaincdn.cc/livecdn/channel-15.flv?auth_key=3000001789963391-0-0-2966157beb8ca0eaf1bb61a7ede0de9f
+#EXTINF:-1 tvg-logo="https://imgts.sportpulseapiz.com/football/team/kn54qllhv57qvy9/image/small" group-title="Xôi Lạc Z TV" , 14:00 21/09 ⚽ Nữ Trung Quốc vs Nữ Philippines (HD ASTRA)
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Linux; Android 6.0; Nexus 5 Build/MRA58N) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/144.0.0.0 Mobile Safari/537.36
+#EXTVLCOPT:http-referrer=https://xlz.domainkqt.cc/
+https://live2.domaincdn.cc/livecdn/channel-11.flv?auth_key=3000001789963399-0-0-8cdea3e07e29b3c522a58cb3732202ba
+#EXTINF:-1 tvg-logo="https://imgts.sportpulseapiz.com/football/team/3glrw7hyjldqdyj/image/small" group-title="Xôi Lạc Z TV" , 15:00 21/09 ⚽ Khovd Broncos vs Central Stallions (HD XMEN)
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Linux; Android 6.0; Nexus 5 Build/MRA58N) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/144.0.0.0 Mobile Safari/537.36
+#EXTVLCOPT:http-referrer=https://xlz.domainkqt.cc/
+https://live2.domaincdn.cc/livecdn/channel-13.flv?auth_key=3000001789963406-0-0-54979d3c09b1304f859308eff4f40c67
+#EXTINF:-1 tvg-logo="https://imgts.sportpulseapiz.com/basketball/team/n54ql7tejglrvy9/image/small" group-title="Xôi Lạc Z TV" , 14:00 21/09 🏀 Sarangani vs Imus Agimat (HD ALAN)
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Linux; Android 6.0; Nexus 5 Build/MRA58N) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/144.0.0.0 Mobile Safari/537.36
+#EXTVLCOPT:http-referrer=https://xlz.domainkqt.cc/
+https://live2.domaincdn.cc/livecdn/channel-25.flv?auth_key=3000001789963414-0-0-97cd2243f8933355c70c2f8e807e001e
+#EXTINF:-1 tvg-logo="https://imgts.sportpulseapiz.com/basketball/team/kn54ql7tyvzrvy9/image/small" group-title="Xôi Lạc Z TV" , 14:00 21/09 🏀 Nữ Malaysia vs Nữ Đài Loan (TOMMY)
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Linux; Android 6.0; Nexus 5 Build/MRA58N) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/144.0.0.0 Mobile Safari/537.36
 #EXTVLCOPT:http-referrer=https://xlz.domainkqt.cc/
 https://live2.zundrixmediapipeline.com/live/channel29.flv
-#EXTINF:-1 tvg-logo="https://imgts.sportpulseapiz.com/basketball/team/d23xmv1tn82mg8n/image/small" group-title="Xôi Lạc Z TV" , 11:00 21/09 🏀 Nữ Mông Cổ vs Nữ Hàn Quốc (HD TOMMY)
+#EXTINF:-1 tvg-logo="https://imgts.sportpulseapiz.com/basketball/team/kn54ql7tyvzrvy9/image/small" group-title="Xôi Lạc Z TV" , 14:00 21/09 🏀 Nữ Malaysia vs Nữ Đài Loan (HD TOMMY)
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Linux; Android 6.0; Nexus 5 Build/MRA58N) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/144.0.0.0 Mobile Safari/537.36
 #EXTVLCOPT:http-referrer=https://xlz.domainkqt.cc/
-https://live2.domaincdn.cc/livecdn/channel-29.flv?auth_key=3000001789956171-0-0-fefe936e5b5bf5fd01139f1402bc1e21
-#EXTINF:-1 tvg-logo="https://imgts.sportpulseapiz.com/tennis/team/2y8m4vfzxjgml07/image/small" group-title="Xôi Lạc Z TV" , 🟡 10:00 21/09 🥎 Daria Kasatkina vs Aliaksandra Sasnovich (HD LUCAS)
+https://live2.domaincdn.cc/livecdn/channel-29.flv?auth_key=3000001789963421-0-0-3ed95c21f0509413aafe5d7104395420
+#EXTINF:-1 tvg-logo="https://imgts.sportpulseapiz.com/tennis/team/965mk4f399vr1ge/image/small" group-title="Xôi Lạc Z TV" , 12:40 21/09 🥎 Rebecca Sramkova vs Maja Chwalinska (LUCAS)
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Linux; Android 6.0; Nexus 5 Build/MRA58N) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/144.0.0.0 Mobile Safari/537.36
 #EXTVLCOPT:http-referrer=https://xlz.domainkqt.cc/
-https://live2.domaincdn.cc/livecdn/channel-31.flv?auth_key=3000001789956187-0-0-ce35fca707ef69057e2b415d21f2ea74
-#EXTINF:-1 tvg-logo="https://imgts.sportpulseapiz.com/tennis/team/4jwq2pfw657m0ve/image/small" group-title="Xôi Lạc Z TV" , 🟡 10:00 21/09 🥎 Yao Xinxin vs Maya Joint (HD VIC)
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Linux; Android 6.0; Nexus 5 Build/MRA58N) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/144.0.0.0 Mobile Safari/537.36
-#EXTVLCOPT:http-referrer=https://xlz.domainkqt.cc/
-https://live2.domaincdn.cc/livecdn/channel-32.flv?auth_key=3000001789956208-0-0-03b603442f5f492a88142e079ee1a3e2
-#EXTINF:-1 tvg-logo="https://imgts.sportpulseapiz.com/tennis/team/y39mpyf5ew2mojx/image/small" group-title="Xôi Lạc Z TV" , 11:30 21/09 🥎 Kristina Mladenovic vs Nao Hibino (HD LUCAS)
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Linux; Android 6.0; Nexus 5 Build/MRA58N) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/144.0.0.0 Mobile Safari/537.36
-#EXTVLCOPT:http-referrer=https://xlz.domainkqt.cc/
-https://live2.domaincdn.cc/livecdn/channel-31.flv?auth_key=3000001789956216-0-0-bf3baa9476942dc71db60784861b48a4
+https://live2.zundrixmediapipeline.com/live/channel31.flv
 #EXTINF:-1 tvg-logo="https://imgts.sportpulseapiz.com/tennis/team/965mk4f399vr1ge/image/small" group-title="Xôi Lạc Z TV" , 12:40 21/09 🥎 Rebecca Sramkova vs Maja Chwalinska (HD LUCAS)
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Linux; Android 6.0; Nexus 5 Build/MRA58N) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/144.0.0.0 Mobile Safari/537.36
 #EXTVLCOPT:http-referrer=https://xlz.domainkqt.cc/
-https://live2.domaincdn.cc/livecdn/channel-31.flv?auth_key=3000001789956223-0-0-d4692b93f4084c40ad7dbbbe82686a1f
-#EXTINF:-1 tvg-logo="https://imgts.sportpulseapiz.com/volleyball/team/yl5ergdh9p4r8k0/image/small" group-title="Xôi Lạc Z TV" , 11:00 21/09 🏐 Nữ Indonesia vs Nữ Việt Nam (HD TYSON)
+https://live2.domaincdn.cc/livecdn/channel-31.flv?auth_key=3000001789963432-0-0-ee935026788e44677f242d2504232acc
+#EXTINF:-1 tvg-logo="https://imgts.sportpulseapiz.com/volleyball/team/kdj2rydhz29r1zp/image/small" group-title="Xôi Lạc Z TV" , 14:00 21/09 🏐 Nữ Thái Lan vs Nữ Trung Quốc (TYSON)
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Linux; Android 6.0; Nexus 5 Build/MRA58N) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/144.0.0.0 Mobile Safari/537.36
 #EXTVLCOPT:http-referrer=https://xlz.domainkqt.cc/
-https://live2.domaincdn.cc/livecdn/channel-33.flv?auth_key=3000001789956229-0-0-2611ee82f1fe0a7563aa94d14d838686
+https://live2.zundrixmediapipeline.com/live/channel33.flv
+#EXTINF:-1 tvg-logo="https://imgts.sportpulseapiz.com/volleyball/team/kdj2rydhz29r1zp/image/small" group-title="Xôi Lạc Z TV" , 14:00 21/09 🏐 Nữ Thái Lan vs Nữ Trung Quốc (HD TYSON)
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Linux; Android 6.0; Nexus 5 Build/MRA58N) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/144.0.0.0 Mobile Safari/537.36
+#EXTVLCOPT:http-referrer=https://xlz.domainkqt.cc/
+https://live2.domaincdn.cc/livecdn/channel-33.flv?auth_key=3000001789963439-0-0-7f15c31622448466ec9e5b9f37daa369
 #EXTINF:-1 tvg-logo="https://imgts.sportpulseapiz.com/lol/team/pxwrx81ugkwjqyk/image/small" group-title="Xôi Lạc Z TV" , 13:00 21/09 🎮 Vivo Keyd Stars Academy vs Dplus Challengers (HD MARTY)
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Linux; Android 6.0; Nexus 5 Build/MRA58N) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/144.0.0.0 Mobile Safari/537.36
 #EXTVLCOPT:http-referrer=https://xlz.domainkqt.cc/
-https://live2.domaincdn.cc/livecdn/channel-30.flv?auth_key=3000001789956241-0-0-c9fc05036728f999c709516967b674fb
-#EXTINF:-1 tvg-logo="https://img.gvapi.cc/football/team/a7faffc34e6a44468bbd57b558641eb9.png" group-title="Gà Vàng 33 TV" , 🟢 07:30 21/09 ⚽ Velez Sarsfield vs Club Atletico Tigre (Gà Siêu Nhí) [flv]
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Safari/537.36
-#EXTVLCOPT:http-referrer=https://google.com
-https://live2.zktsva.app/live/301263.flv
-#EXTINF:-1 tvg-logo="https://img.gvapi.cc/football/team/a7faffc34e6a44468bbd57b558641eb9.png" group-title="Gà Vàng 33 TV" , 🟢 07:30 21/09 ⚽ Velez Sarsfield vs Club Atletico Tigre (Gà Siêu Nhí) [hls]
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Safari/537.36
-#EXTVLCOPT:http-referrer=https://google.com
-https://live2.zktsva.app/live/301263.m3u8
-#EXTINF:-1 tvg-logo="https://img.gvapi.cc/football/team/74eb06ea57f32cb35dcc025665caa97e.png" group-title="Gà Vàng 33 TV" , 🟢 09:10 21/09 ⚽ Queretaro FC vs Club Leon (Gà Siêu Tồ) [flv]
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Safari/537.36
-#EXTVLCOPT:http-referrer=https://google.com
-https://live2.zktsva.app/live/796315.flv
-#EXTINF:-1 tvg-logo="https://img.gvapi.cc/football/team/74eb06ea57f32cb35dcc025665caa97e.png" group-title="Gà Vàng 33 TV" , 🟢 09:10 21/09 ⚽ Queretaro FC vs Club Leon (Gà Siêu Tồ) [hls]
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Safari/537.36
-#EXTVLCOPT:http-referrer=https://google.com
-https://live2.zktsva.app/live/796315.m3u8
-#EXTINF:-1 tvg-logo="https://img.gvapi.cc/football/team/2e02d3f27830c7f3642e6592e6b922dd.png!w80" group-title="Cola TV" , 🟢 07:30 21/09 ⚽ CLB Velez Sarsfield vs Club Atletico Tigre (BLV 247) [flv]
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Safari/537.36
-#EXTVLCOPT:http-referrer=https://google.com
-https://live05.meung.app/live/90865415_tsc.flv
-#EXTINF:-1 tvg-logo="https://img.gvapi.cc/football/team/2e02d3f27830c7f3642e6592e6b922dd.png!w80" group-title="Cola TV" , 🟢 07:30 21/09 ⚽ CLB Velez Sarsfield vs Club Atletico Tigre (BLV 247) [hls]
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Safari/537.36
-#EXTVLCOPT:http-referrer=https://google.com
-https://live05.meung.app/live/90865415_tsc.m3u8
-#EXTINF:-1 tvg-logo="https://img.gvapi.cc/football/team/2e02d3f27830c7f3642e6592e6b922dd.png!w80" group-title="Cola TV" , 🟢 07:30 21/09 ⚽ CLB Velez Sarsfield vs Club Atletico Tigre (BLV 247) [hls 2]
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Safari/537.36
-#EXTVLCOPT:http-referrer=https://google.com
-https://live05.miekgo.app/live/90865415_tsc.m3u8
-#EXTINF:-1 tvg-logo="https://img.gvapi.cc/football/team/f83a93401d7a60595338bae0337d344c.png!w80" group-title="Cola TV" , 🟢 08:15 21/09 ⚽ Llaneros FC vs Atletico Nacional (BLV HỔ VẰN) [flv]
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Safari/537.36
-#EXTVLCOPT:http-referrer=https://google.com
-https://live05.meung.app/live/07428422_tsc.flv
-#EXTINF:-1 tvg-logo="https://img.gvapi.cc/football/team/f83a93401d7a60595338bae0337d344c.png!w80" group-title="Cola TV" , 🟢 08:15 21/09 ⚽ Llaneros FC vs Atletico Nacional (BLV HỔ VẰN) [hls]
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Safari/537.36
-#EXTVLCOPT:http-referrer=https://google.com
-https://live05.meung.app/live/07428422_tsc.m3u8
-#EXTINF:-1 tvg-logo="https://img.gvapi.cc/football/team/f83a93401d7a60595338bae0337d344c.png!w80" group-title="Cola TV" , 🟢 08:15 21/09 ⚽ Llaneros FC vs Atletico Nacional (BLV HỔ VẰN) [hls 2]
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Safari/537.36
-#EXTVLCOPT:http-referrer=https://google.com
-https://live05.miekgo.app/live/07428422_tsc.m3u8
-#EXTINF:-1 tvg-logo="https://img.gvapi.cc/basketball/team/ce8ab1125fdb3fdbd8c09dba8c437c49.png!w80" group-title="Cola TV" , 🟢 08:00 21/09 🏀 Las Vegas Aces vs Seattle Storm (BLV POCARI) [flv]
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Safari/537.36
-#EXTVLCOPT:http-referrer=https://google.com
-https://live05.meung.app/live/19919577_tsc.flv
-#EXTINF:-1 tvg-logo="https://img.gvapi.cc/basketball/team/ce8ab1125fdb3fdbd8c09dba8c437c49.png!w80" group-title="Cola TV" , 🟢 08:00 21/09 🏀 Las Vegas Aces vs Seattle Storm (BLV POCARI) [hls]
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Safari/537.36
-#EXTVLCOPT:http-referrer=https://google.com
-https://live05.meung.app/live/19919577_tsc.m3u8
-#EXTINF:-1 tvg-logo="https://img.gvapi.cc/basketball/team/ce8ab1125fdb3fdbd8c09dba8c437c49.png!w80" group-title="Cola TV" , 🟢 08:00 21/09 🏀 Las Vegas Aces vs Seattle Storm (BLV POCARI) [hls 2]
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Safari/537.36
-#EXTVLCOPT:http-referrer=https://google.com
-https://live05.miekgo.app/live/19919577_tsc.m3u8
-#EXTINF:-1 tvg-logo="https://img.gvapi.cc/football/team/e93c69c95a943755907a17adf4d7d732.png!w80" group-title="Cola TV" , 🟢 09:10 21/09 ⚽ Queretaro vs Club Leon (BLV C2) [flv]
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Safari/537.36
-#EXTVLCOPT:http-referrer=https://google.com
-https://live05.meung.app/live/08552895_tsc.flv
-#EXTINF:-1 tvg-logo="https://img.gvapi.cc/football/team/e93c69c95a943755907a17adf4d7d732.png!w80" group-title="Cola TV" , 🟢 09:10 21/09 ⚽ Queretaro vs Club Leon (BLV C2) [hls]
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Safari/537.36
-#EXTVLCOPT:http-referrer=https://google.com
-https://live05.meung.app/live/08552895_tsc.m3u8
-#EXTINF:-1 tvg-logo="https://img.gvapi.cc/football/team/e93c69c95a943755907a17adf4d7d732.png!w80" group-title="Cola TV" , 🟢 09:10 21/09 ⚽ Queretaro vs Club Leon (BLV C2) [hls 2]
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Safari/537.36
-#EXTVLCOPT:http-referrer=https://google.com
-https://live05.miekgo.app/live/08552895_tsc.m3u8
-#EXTINF:-1 tvg-logo="https://img.gvapi.cc/football/team/90fb994bffbb0b8754b4d971092ef034.png!w80" group-title="Cola TV" , 17:30 21/09 ⚽ Nhật Bản Nữ vs Đài Loan TQ Nữ (BLV C2) [flv]
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Safari/537.36
-#EXTVLCOPT:http-referrer=https://google.com
-https://live05.meung.app/live/08552895_tsc.flv
-#EXTINF:-1 tvg-logo="https://img.gvapi.cc/football/team/90fb994bffbb0b8754b4d971092ef034.png!w80" group-title="Cola TV" , 17:30 21/09 ⚽ Nhật Bản Nữ vs Đài Loan TQ Nữ (BLV C2) [hls]
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Safari/537.36
-#EXTVLCOPT:http-referrer=https://google.com
-https://live05.meung.app/live/08552895_tsc.m3u8
-#EXTINF:-1 tvg-logo="https://img.gvapi.cc/football/team/90fb994bffbb0b8754b4d971092ef034.png!w80" group-title="Cola TV" , 17:30 21/09 ⚽ Nhật Bản Nữ vs Đài Loan TQ Nữ (BLV C2) [hls 2]
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Safari/537.36
-#EXTVLCOPT:http-referrer=https://google.com
-https://live05.miekgo.app/live/08552895_tsc.m3u8
-#EXTINF:-1 tvg-logo="https://img.gvapi.cc/football/team/c4958354eae05d5e126c22453ef39a63.png!w80" group-title="Cola TV" , 20:00 21/09 ⚽ Fergana University vs Bukhara State University (BLV HỔ VẰN) [flv]
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Safari/537.36
-#EXTVLCOPT:http-referrer=https://google.com
-https://live05.meung.app/live/07428422_tsc.flv
-#EXTINF:-1 tvg-logo="https://img.gvapi.cc/football/team/c4958354eae05d5e126c22453ef39a63.png!w80" group-title="Cola TV" , 20:00 21/09 ⚽ Fergana University vs Bukhara State University (BLV HỔ VẰN) [hls]
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Safari/537.36
-#EXTVLCOPT:http-referrer=https://google.com
-https://live05.meung.app/live/07428422_tsc.m3u8
-#EXTINF:-1 tvg-logo="https://img.gvapi.cc/football/team/c4958354eae05d5e126c22453ef39a63.png!w80" group-title="Cola TV" , 20:00 21/09 ⚽ Fergana University vs Bukhara State University (BLV HỔ VẰN) [hls 2]
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Safari/537.36
-#EXTVLCOPT:http-referrer=https://google.com
-https://live05.miekgo.app/live/07428422_tsc.m3u8
-#EXTINF:-1 tvg-logo="https://sta.vnres.co/file/common/20260917/a757c4b9cb5b5fedb7c7fcb0459d222d.png" group-title="Sút Bóng TV" , 🟢 05:15 21/09 ⚽ Belgrano vs AA Estudiantes (Río Cuarto) (BLV RAMBO)
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Safari/537.36
-#EXTVLCOPT:http-referrer=https://sutbong.net/
-https://pull.niur.live/live/stream-534055_lhd.m3u8?txSecret=b017c4609468204f488342fb88670ce1&txTime=6ab0cb67
-#EXTINF:-1 tvg-logo="https://sta.vnres.co/file/common/20260917/a757c4b9cb5b5fedb7c7fcb0459d222d.png" group-title="Sút Bóng TV" , 🟢 05:15 21/09 ⚽ Belgrano vs AA Estudiantes (Río Cuarto) (HÀ DUY KIÊN)
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Safari/537.36
-#EXTVLCOPT:http-referrer=https://sutbong.net/
-https://pull.niur.live/live/stream-607400_lhd.m3u8?txSecret=1d6a55ac987bd8e9697b59d97cb24cb2&txTime=6ab0cba3
-#EXTINF:-1 tvg-logo="https://sta.vnres.co/file/common/20260917/b09f36858f88897c6964662e84bef557.png" group-title="Sút Bóng TV" , 🟢 05:30 21/09 ⚽ Athletico Paranaense _ PR vs Bahia _ BA (BLV YONE)
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Safari/537.36
-#EXTVLCOPT:http-referrer=https://sutbong.net/
-https://pull.niues.live/live/stream-372746_lhd.m3u8?auth_key=1789955103-0-0-d33d87f92a5fd378bdb6f98230b83821
-#EXTINF:-1 tvg-logo="https://sta.vnres.co/file/common/20260917/d50a85f27f3abd1362624f1ccb6df693.png" group-title="Sút Bóng TV" , 🟢 06:00 21/09 ⚽ Inter Miami CF vs San Diego FC (BLV PEWPEW)
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Safari/537.36
-#EXTVLCOPT:http-referrer=https://sutbong.net/
-https://freem3u.xyz/static/no-signal/low.m3u8
-#EXTINF:-1 tvg-logo="https://sta.vnres.co/file/common/20260917/d50a85f27f3abd1362624f1ccb6df693.png" group-title="Sút Bóng TV" , 🟢 06:00 21/09 ⚽ Inter Miami CF vs San Diego FC (BLV MESSI)
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Safari/537.36
-#EXTVLCOPT:http-referrer=https://sutbong.net/
-https://freem3u.xyz/static/no-signal/low.m3u8
-#EXTINF:-1 tvg-logo="https://sta.vnres.co/file/common/20260917/d50a85f27f3abd1362624f1ccb6df693.png" group-title="Sút Bóng TV" , 🟢 06:00 21/09 ⚽ Inter Miami CF vs San Diego FC (BLV LONG)
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Safari/537.36
-#EXTVLCOPT:http-referrer=https://sutbong.net/
-https://freem3u.xyz/static/no-signal/low.m3u8
-#EXTINF:-1 tvg-logo="https://sta.vnres.co/file/common/20260919/cb9dda8653c73f16bb9846402381c6db.png" group-title="Sút Bóng TV" , 🟢 06:00 21/09 🏀 Los Angeles Sparks W vs Portland Fire W (CHAN SENA)
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Safari/537.36
-#EXTVLCOPT:http-referrer=https://sutbong.net/
-https://pull.niues.live/live/stream-9912115_lhd.m3u8?auth_key=1789953363-0-0-72c52361eb0d52fe68ba59e5b01dee22
-#EXTINF:-1 tvg-logo="https://sta.vnres.co/file/common/20260919/cb9dda8653c73f16bb9846402381c6db.png" group-title="Sút Bóng TV" , 🟢 06:00 21/09 🏀 Los Angeles Sparks W vs Portland Fire W (A CHÈ)
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Safari/537.36
-#EXTVLCOPT:http-referrer=https://sutbong.net/
-https://pull.niur.live/live/stream-356042_lhd.m3u8?txSecret=def26a4c9fd259ed216c3b71b1d9b0a4&txTime=6ab0cba3
-#EXTINF:-1 tvg-logo="https://sta.vnres.co/file/common/20260919/cb9dda8653c73f16bb9846402381c6db.png" group-title="Sút Bóng TV" , 🟢 06:00 21/09 🏀 Los Angeles Sparks W vs Portland Fire W (CHAN SENA)
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Safari/537.36
-#EXTVLCOPT:http-referrer=https://sutbong.net/
-https://pull.niues.live/live/stream-9912115_lhd.m3u8?auth_key=1789953363-0-0-72c52361eb0d52fe68ba59e5b01dee22
-#EXTINF:-1 tvg-logo="https://sta.vnres.co/file/common/20260919/cb9dda8653c73f16bb9846402381c6db.png" group-title="Sút Bóng TV" , 🟢 06:00 21/09 🏀 Los Angeles Sparks W vs Portland Fire W (A CHÈ)
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Safari/537.36
-#EXTVLCOPT:http-referrer=https://sutbong.net/
-https://pull.niur.live/live/stream-356042_lhd.m3u8?txSecret=def26a4c9fd259ed216c3b71b1d9b0a4&txTime=6ab0cba3
-#EXTINF:-1 tvg-logo="https://sta.vnres.co/file/common/20260919/cb9dda8653c73f16bb9846402381c6db.png" group-title="Sút Bóng TV" , 🟢 06:00 21/09 🏀 Los Angeles Sparks W vs Portland Fire W (CHAN SENA)
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Safari/537.36
-#EXTVLCOPT:http-referrer=https://sutbong.net/
-https://pull.niues.live/live/stream-9912115_lhd.m3u8?auth_key=1789953363-0-0-72c52361eb0d52fe68ba59e5b01dee22
-#EXTINF:-1 tvg-logo="https://sta.vnres.co/file/common/20260919/cb9dda8653c73f16bb9846402381c6db.png" group-title="Sút Bóng TV" , 🟢 06:00 21/09 🏀 Los Angeles Sparks W vs Portland Fire W (A CHÈ)
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Safari/537.36
-#EXTVLCOPT:http-referrer=https://sutbong.net/
-https://pull.niur.live/live/stream-356042_lhd.m3u8?txSecret=def26a4c9fd259ed216c3b71b1d9b0a4&txTime=6ab0cba3
-#EXTINF:-1 tvg-logo="https://sta.vnres.co/file/common/20260917/891deee347fd13ef9e47ed46e042da47.png" group-title="Sút Bóng TV" , 🟢 06:10 21/09 ⚽ Deportes Tolima vs America de Cali (BLV VOI)
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Safari/537.36
-#EXTVLCOPT:http-referrer=https://sutbong.net/
-https://pull.niues.live/live/stream-9912114_lhd.m3u8?auth_key=1789953363-0-0-0c89423013854d36f69e0e0f4cebd832
-#EXTINF:-1 tvg-logo="https://sta.vnres.co/file/common/20260917/891deee347fd13ef9e47ed46e042da47.png" group-title="Sút Bóng TV" , 🟢 06:10 21/09 ⚽ Deportes Tolima vs America de Cali (BÚN ĐẬU)
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Safari/537.36
-#EXTVLCOPT:http-referrer=https://sutbong.net/
-https://pull.niues.live/live/stream-619561_lhd.m3u8?auth_key=1789953424-0-0-4c6b642bb6ef318a2e6d0ef250fd99c3
-#EXTINF:-1 tvg-logo="https://sta.vnres.co/file/common/20260917/c9212dc9d0f5048099673629a1d47a40.png" group-title="Sút Bóng TV" , 🟢 07:00 21/09 ⚽ Pachuca vs Club Tijuana (BLV A WIN)
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Safari/537.36
-#EXTVLCOPT:http-referrer=https://sutbong.net/
-https://freem3u.xyz/static/no-signal/low.m3u8
-#EXTINF:-1 tvg-logo="https://sta.vnres.co/file/common/20260917/89d4d573df33ed00f560f914c5959831.png" group-title="Sút Bóng TV" , 🟢 07:00 21/09 ⚽ Toluca vs Santos Laguna (BLV KAN)
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Safari/537.36
-#EXTVLCOPT:http-referrer=https://sutbong.net/
-https://freem3u.xyz/static/no-signal/low.m3u8
-#EXTINF:-1 tvg-logo="https://sta.vnres.co/file/common/20260917/89d4d573df33ed00f560f914c5959831.png" group-title="Sút Bóng TV" , 🟢 07:00 21/09 ⚽ Toluca vs Santos Laguna (BLV LION)
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Safari/537.36
-#EXTVLCOPT:http-referrer=https://sutbong.net/
-https://freem3u.xyz/static/no-signal/low.m3u8
-#EXTINF:-1 tvg-logo="https://sta.vnres.co/file/common/20260917/89d4d573df33ed00f560f914c5959831.png" group-title="Sút Bóng TV" , 🟢 07:00 21/09 ⚽ Toluca vs Santos Laguna (BLV ĐỐM)
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Safari/537.36
-#EXTVLCOPT:http-referrer=https://sutbong.net/
-https://freem3u.xyz/static/no-signal/low.m3u8
-#EXTINF:-1 tvg-logo="https://sta.vnres.co/file/common/20260917/bab740bfca0962e03597c47ea65dc9f5.png" group-title="Sút Bóng TV" , 🟢 07:30 21/09 ⚽ Velez Sarsfield vs Club Atletico Tigre (BLV CHIVAS)
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Safari/537.36
-#EXTVLCOPT:http-referrer=https://sutbong.net/
-https://pull.niur.live/live/stream-485739_lhd.m3u8?txSecret=f06dd8ada337f02f0932d10aeb06f577&txTime=6ab0cc1b
-#EXTINF:-1 tvg-logo="https://sta.vnres.co/file/common/20260917/bab740bfca0962e03597c47ea65dc9f5.png" group-title="Sút Bóng TV" , 🟢 07:30 21/09 ⚽ Velez Sarsfield vs Club Atletico Tigre (CƠM NẾP)
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Safari/537.36
-#EXTVLCOPT:http-referrer=https://sutbong.net/
-https://pull.niues.live/live/stream-618950_lhd.m3u8?auth_key=1789953483-0-0-bc7b8fb0d9a31db0781b431484fb4359
-#EXTINF:-1 tvg-logo="https://sta.vnres.co/file/common/20260917/f6f3a54c71e3f986a208d5e8fc2b2049.png" group-title="Sút Bóng TV" , 🟢 08:00 21/09 ⚽ AD San Carlos vs CS Cartagines (BLV YONE)
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Safari/537.36
-#EXTVLCOPT:http-referrer=https://sutbong.net/
-https://pull.niues.live/live/stream-372746_lhd.m3u8?auth_key=1789955103-0-0-d33d87f92a5fd378bdb6f98230b83821
-#EXTINF:-1 tvg-logo="https://sta.vnres.co/file/common/20260917/f6f3a54c71e3f986a208d5e8fc2b2049.png" group-title="Sút Bóng TV" , 🟢 08:00 21/09 ⚽ AD San Carlos vs CS Cartagines (BLV VIP)
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Safari/537.36
-#EXTVLCOPT:http-referrer=https://sutbong.net/
-https://pull.niur.live/live/stream-491873_lhd.m3u8?txSecret=c97eca6406c2d87f6667b7e081c9b8b8&txTime=6ab0d2ac
-#EXTINF:-1 tvg-logo="https://sta.vnres.co/file/common/20260919/0a1eb6b30ab71cdca74a7a95567ddb81.png" group-title="Sút Bóng TV" , 🟢 08:00 21/09 🏀 Soles vs Panteras (BRIAN)
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Safari/537.36
-#EXTVLCOPT:http-referrer=https://sutbong.net/
-https://pull.niues.live/live/stream-9912106_lhd.m3u8?auth_key=1789955163-0-0-06fae45366e7a07504d19284bc807c5c
-#EXTINF:-1 tvg-logo="https://sta.vnres.co/file/common/20260919/0a1eb6b30ab71cdca74a7a95567ddb81.png" group-title="Sút Bóng TV" , 🟢 08:00 21/09 🏀 Soles vs Panteras (A CHÈ)
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Safari/537.36
-#EXTVLCOPT:http-referrer=https://sutbong.net/
-https://pull.niur.live/live/stream-356042_lhd.m3u8?txSecret=def26a4c9fd259ed216c3b71b1d9b0a4&txTime=6ab0cba3
-#EXTINF:-1 tvg-logo="https://sta.vnres.co/file/common/20260919/2bc694f13a293f65d3b09aa4e56a5e67.png" group-title="Sút Bóng TV" , 🟢 08:00 21/09 🏀 Las Vegas Aces W vs Seattle Storm W (BLV HENRY)
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Safari/537.36
-#EXTVLCOPT:http-referrer=https://sutbong.net/
-https://pull.niues.live/live/stream-9912112_lhd.m3u8?auth_key=1789955163-0-0-e1f59b45b8ab7384f2eb2042e595c1c5
-#EXTINF:-1 tvg-logo="https://sta.vnres.co/file/common/20260919/2bc694f13a293f65d3b09aa4e56a5e67.png" group-title="Sút Bóng TV" , 🟢 08:00 21/09 🏀 Las Vegas Aces W vs Seattle Storm W (CHAN SENA)
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Safari/537.36
-#EXTVLCOPT:http-referrer=https://sutbong.net/
-https://pull.niues.live/live/stream-9912115_lhd.m3u8?auth_key=1789953363-0-0-72c52361eb0d52fe68ba59e5b01dee22
-#EXTINF:-1 tvg-logo="https://sta.vnres.co/file/common/20260919/2bc694f13a293f65d3b09aa4e56a5e67.png" group-title="Sút Bóng TV" , 🟢 08:00 21/09 🏀 Las Vegas Aces W vs Seattle Storm W (BLV HENRY)
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Safari/537.36
-#EXTVLCOPT:http-referrer=https://sutbong.net/
-https://pull.niues.live/live/stream-9912112_lhd.m3u8?auth_key=1789955163-0-0-e1f59b45b8ab7384f2eb2042e595c1c5
-#EXTINF:-1 tvg-logo="https://sta.vnres.co/file/common/20260919/2bc694f13a293f65d3b09aa4e56a5e67.png" group-title="Sút Bóng TV" , 🟢 08:00 21/09 🏀 Las Vegas Aces W vs Seattle Storm W (CHAN SENA)
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Safari/537.36
-#EXTVLCOPT:http-referrer=https://sutbong.net/
-https://pull.niues.live/live/stream-9912115_lhd.m3u8?auth_key=1789953363-0-0-72c52361eb0d52fe68ba59e5b01dee22
-#EXTINF:-1 tvg-logo="https://sta.vnres.co/file/common/20260919/2bc694f13a293f65d3b09aa4e56a5e67.png" group-title="Sút Bóng TV" , 🟢 08:00 21/09 🏀 Las Vegas Aces W vs Seattle Storm W (BLV HENRY)
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Safari/537.36
-#EXTVLCOPT:http-referrer=https://sutbong.net/
-https://pull.niues.live/live/stream-9912112_lhd.m3u8?auth_key=1789955163-0-0-e1f59b45b8ab7384f2eb2042e595c1c5
-#EXTINF:-1 tvg-logo="https://sta.vnres.co/file/common/20260919/2bc694f13a293f65d3b09aa4e56a5e67.png" group-title="Sút Bóng TV" , 🟢 08:00 21/09 🏀 Las Vegas Aces W vs Seattle Storm W (CHAN SENA)
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Safari/537.36
-#EXTVLCOPT:http-referrer=https://sutbong.net/
-https://pull.niues.live/live/stream-9912115_lhd.m3u8?auth_key=1789953363-0-0-72c52361eb0d52fe68ba59e5b01dee22
-#EXTINF:-1 tvg-logo="https://sta.vnres.co/file/common/20260917/73730ba4e701165611b687e6777557d0.png" group-title="Sút Bóng TV" , 🟢 08:15 21/09 ⚽ Llaneros FC vs Atletico Nacional Medellin (BLV VOI)
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Safari/537.36
-#EXTVLCOPT:http-referrer=https://sutbong.net/
-https://pull.niues.live/live/stream-9912114_lhd.m3u8?auth_key=1789953363-0-0-0c89423013854d36f69e0e0f4cebd832
-#EXTINF:-1 tvg-logo="https://sta.vnres.co/file/common/20260917/73730ba4e701165611b687e6777557d0.png" group-title="Sút Bóng TV" , 🟢 08:15 21/09 ⚽ Llaneros FC vs Atletico Nacional Medellin (BÚN ĐẬU)
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Safari/537.36
-#EXTVLCOPT:http-referrer=https://sutbong.net/
-https://pull.niues.live/live/stream-619561_lhd.m3u8?auth_key=1789953424-0-0-4c6b642bb6ef318a2e6d0ef250fd99c3
-#EXTINF:-1 tvg-logo="https://sta.vnres.co/file/common/20260917/73730ba4e701165611b687e6777557d0.png" group-title="Sút Bóng TV" , 🟢 08:15 21/09 ⚽ Llaneros FC vs Atletico Nacional Medellin (BLV RAMBO)
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Safari/537.36
-#EXTVLCOPT:http-referrer=https://sutbong.net/
-https://pull.niur.live/live/stream-534055_lhd.m3u8?txSecret=b017c4609468204f488342fb88670ce1&txTime=6ab0cb67
-#EXTINF:-1 tvg-logo="https://sta.vnres.co/file/common/20260917/73730ba4e701165611b687e6777557d0.png" group-title="Sút Bóng TV" , 🟢 08:15 21/09 ⚽ Llaneros FC vs Atletico Nacional Medellin (HÀ DUY KIÊN)
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Safari/537.36
-#EXTVLCOPT:http-referrer=https://sutbong.net/
-https://pull.niur.live/live/stream-607400_lhd.m3u8?txSecret=1d6a55ac987bd8e9697b59d97cb24cb2&txTime=6ab0cba3
+https://live2.domaincdn.cc/livecdn/channel-30.flv?auth_key=3000001789963454-0-0-b63302660ee82cb4cc16e28d0d2e7478
+#EXTINF:-1 tvg-logo="https://imgts.sportpulseapiz.com/lol/team/dj2ryy6tkzonr1z/image/small" group-title="Xôi Lạc Z TV" , 14:00 21/09 🎮 FENNEL vs Cupid Esports (HD MARTY)
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Linux; Android 6.0; Nexus 5 Build/MRA58N) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/144.0.0.0 Mobile Safari/537.36
+#EXTVLCOPT:http-referrer=https://xlz.domainkqt.cc/
+https://live2.domaincdn.cc/livecdn/channel-30.flv?auth_key=3000001789963460-0-0-558b1b1cfda88c1fb0000720870945a9
+#EXTINF:-1 tvg-logo="https://imgts.sportpulseapiz.com/lol/team/vjxm89jb4n52q6o/image/small" group-title="Xôi Lạc Z TV" , 15:00 21/09 🎮 Galions vs Saigon Warriors (HD MARTY)
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Linux; Android 6.0; Nexus 5 Build/MRA58N) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/144.0.0.0 Mobile Safari/537.36
+#EXTVLCOPT:http-referrer=https://xlz.domainkqt.cc/
+https://live2.domaincdn.cc/livecdn/channel-30.flv?auth_key=3000001789963465-0-0-7ea260f64190063be94fe045979651ef
 #EXTINF:-1 tvg-logo="https://sta.vnres.co/file/common/20260917/7bfb5646a75bddd2cb49e0bb627bcb0d.png" group-title="Sút Bóng TV" , 🟢 09:05 21/09 ⚽ Queretaro FC vs Club Leon (TẠ BIÊN GIỚI)
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Safari/537.36
 #EXTVLCOPT:http-referrer=https://sutbong.net/
-https://pull.niues.live/live/stream-9912144_lhd.m3u8?auth_key=1789959663-0-0-3a45a3b98d79a1eb29df7ec52d74d7a7
+https://pull.niues.live/live/stream-9912144_lhd.m3u8?auth_key=1789961463-0-0-cc74c55a17e488e67e03dd823ec703ea
 #EXTINF:-1 tvg-logo="https://sta.vnres.co/file/common/20260917/7bfb5646a75bddd2cb49e0bb627bcb0d.png" group-title="Sút Bóng TV" , 🟢 09:05 21/09 ⚽ Queretaro FC vs Club Leon (BLV CUỘI)
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Safari/537.36
 #EXTVLCOPT:http-referrer=https://sutbong.net/
-https://pull.niues.live/live/stream-9912146_lhd.m3u8?auth_key=1789959723-0-0-1d99f36f6ccb4529320c89399f600f32
-#EXTINF:-1 tvg-logo="https://sta.vnres.co/file/common/20260917/7bfb5646a75bddd2cb49e0bb627bcb0d.png" group-title="Sút Bóng TV" , 🟢 09:05 21/09 ⚽ Queretaro FC vs Club Leon (BLV TAP)
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Safari/537.36
-#EXTVLCOPT:http-referrer=https://sutbong.net/
-https://pull.niur.live/live/stream-9912041_lhd.m3u8?txSecret=f06828624ba00eb77ce3dc2e23deacd9&txTime=6ab0e47b
+https://pull.niues.live/live/stream-9912146_lhd.m3u8?auth_key=1789966803-0-0-87325453d6fd9d62ae2e8e17df8ae2d9
 #EXTINF:-1 tvg-logo="https://sta.vnres.co/file/common/20260917/7bfb5646a75bddd2cb49e0bb627bcb0d.png" group-title="Sút Bóng TV" , 🟢 09:05 21/09 ⚽ Queretaro FC vs Club Leon (LÃO LÂM)
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Safari/537.36
 #EXTVLCOPT:http-referrer=https://sutbong.net/
@@ -501,43 +297,83 @@ https://freem3u.xyz/static/no-signal/low.m3u8
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Safari/537.36
 #EXTVLCOPT:http-referrer=https://sutbong.net/
 https://freem3u.xyz/static/no-signal/low.m3u8
-#EXTINF:-1 tvg-logo="https://sta.vnres.co/file/common/20260919/fe84e93b04d2e35d5eaa64fdff2d656e.jpg" group-title="Sút Bóng TV" , 11:00 21/09 🏀 Mongolia W vs South Korea W (HUNTER)
+#EXTINF:-1 tvg-logo="https://sta.vnres.co/file/common/20260919/fe84e93b04d2e35d5eaa64fdff2d656e.jpg" group-title="Sút Bóng TV" , 🟢 11:00 21/09 🏀 Mongolia W vs South Korea W (HUNTER)
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Safari/537.36
+#EXTVLCOPT:http-referrer=https://sutbong.net/
+https://pull.niur.live/live/stream-558264_lhd.m3u8?txSecret=ab3a37e616fa26aed82eb1bf87f6979a&txTime=6ab10023
+#EXTINF:-1 tvg-logo="https://sta.vnres.co/file/common/20260919/fe84e93b04d2e35d5eaa64fdff2d656e.jpg" group-title="Sút Bóng TV" , 🟢 11:00 21/09 🏀 Mongolia W vs South Korea W (BRIAN)
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Safari/537.36
+#EXTVLCOPT:http-referrer=https://sutbong.net/
+https://pull.niues.live/live/stream-9912106_lhd.m3u8?auth_key=1789966803-0-0-8fdaeab79484e1ffddfba7c25467b1b2
+#EXTINF:-1 tvg-logo="https://sta.vnres.co/file/common/20260919/fe84e93b04d2e35d5eaa64fdff2d656e.jpg" group-title="Sút Bóng TV" , 🟢 11:00 21/09 🏀 Mongolia W vs South Korea W (A CHÈ)
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Safari/537.36
+#EXTVLCOPT:http-referrer=https://sutbong.net/
+https://pull.niur.live/live/stream-356042_lhd.m3u8?txSecret=97359d637f8845e606c4f8db0d0565b6&txTime=6ab1005f
+#EXTINF:-1 tvg-logo="https://sta.vnres.co/file/common/20260919/fe84e93b04d2e35d5eaa64fdff2d656e.jpg" group-title="Sút Bóng TV" , 🟢 11:00 21/09 🏀 Mongolia W vs South Korea W (KING)
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Safari/537.36
 #EXTVLCOPT:http-referrer=https://sutbong.net/
 https://freem3u.xyz/static/no-signal/low.m3u8
-#EXTINF:-1 tvg-logo="https://sta.vnres.co/file/common/20260919/fe84e93b04d2e35d5eaa64fdff2d656e.jpg" group-title="Sút Bóng TV" , 11:00 21/09 🏀 Mongolia W vs South Korea W (BRIAN)
+#EXTINF:-1 tvg-logo="https://sta.vnres.co/file/common/20260919/fe84e93b04d2e35d5eaa64fdff2d656e.jpg" group-title="Sút Bóng TV" , 🟢 11:00 21/09 🏀 Mongolia W vs South Korea W (BLV HENRY)
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Safari/537.36
 #EXTVLCOPT:http-referrer=https://sutbong.net/
 https://freem3u.xyz/static/no-signal/low.m3u8
-#EXTINF:-1 tvg-logo="https://sta.vnres.co/file/common/20260919/fe84e93b04d2e35d5eaa64fdff2d656e.jpg" group-title="Sút Bóng TV" , 11:00 21/09 🏀 Mongolia W vs South Korea W (A CHÈ)
+#EXTINF:-1 tvg-logo="https://sta.vnres.co/file/common/20260919/fe84e93b04d2e35d5eaa64fdff2d656e.jpg" group-title="Sút Bóng TV" , 🟢 11:00 21/09 🏀 Mongolia W vs South Korea W (HUNTER)
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Safari/537.36
+#EXTVLCOPT:http-referrer=https://sutbong.net/
+https://pull.niur.live/live/stream-558264_lhd.m3u8?txSecret=ab3a37e616fa26aed82eb1bf87f6979a&txTime=6ab10023
+#EXTINF:-1 tvg-logo="https://sta.vnres.co/file/common/20260919/fe84e93b04d2e35d5eaa64fdff2d656e.jpg" group-title="Sút Bóng TV" , 🟢 11:00 21/09 🏀 Mongolia W vs South Korea W (BRIAN)
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Safari/537.36
+#EXTVLCOPT:http-referrer=https://sutbong.net/
+https://pull.niues.live/live/stream-9912106_lhd.m3u8?auth_key=1789966803-0-0-8fdaeab79484e1ffddfba7c25467b1b2
+#EXTINF:-1 tvg-logo="https://sta.vnres.co/file/common/20260919/fe84e93b04d2e35d5eaa64fdff2d656e.jpg" group-title="Sút Bóng TV" , 🟢 11:00 21/09 🏀 Mongolia W vs South Korea W (A CHÈ)
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Safari/537.36
+#EXTVLCOPT:http-referrer=https://sutbong.net/
+https://pull.niur.live/live/stream-356042_lhd.m3u8?txSecret=97359d637f8845e606c4f8db0d0565b6&txTime=6ab1005f
+#EXTINF:-1 tvg-logo="https://sta.vnres.co/file/common/20260919/fe84e93b04d2e35d5eaa64fdff2d656e.jpg" group-title="Sút Bóng TV" , 🟢 11:00 21/09 🏀 Mongolia W vs South Korea W (KING)
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Safari/537.36
+#EXTVLCOPT:http-referrer=https://sutbong.net/
+https://pull.niues.live/live/stream-9912099_lhd.m3u8?auth_key=1789966863-0-0-894dc79c09b5f7ab6ee5a50122567971
+#EXTINF:-1 tvg-logo="https://sta.vnres.co/file/common/20260919/fe84e93b04d2e35d5eaa64fdff2d656e.jpg" group-title="Sút Bóng TV" , 🟢 11:00 21/09 🏀 Mongolia W vs South Korea W (BLV HENRY)
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Safari/537.36
+#EXTVLCOPT:http-referrer=https://sutbong.net/
+https://pull.niues.live/live/stream-9912112_lhd.m3u8?auth_key=1789966863-0-0-4c04632ccc5b0cb20d80e9049f923cc8
+#EXTINF:-1 tvg-logo="https://sta.vnres.co/file/common/20260917/9ce7c8ca8b839151ba0d7ff6f000b870.png" group-title="Sút Bóng TV" , 14:00 21/09 ⚽ Bangladesh Women vs Myanmar Women (BLV CÒ)
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Safari/537.36
 #EXTVLCOPT:http-referrer=https://sutbong.net/
 https://freem3u.xyz/static/no-signal/low.m3u8
-#EXTINF:-1 tvg-logo="https://sta.vnres.co/file/common/20260919/fe84e93b04d2e35d5eaa64fdff2d656e.jpg" group-title="Sút Bóng TV" , 11:00 21/09 🏀 Mongolia W vs South Korea W (KING)
+#EXTINF:-1 tvg-logo="https://sta.vnres.co/file/common/20260917/9ce7c8ca8b839151ba0d7ff6f000b870.png" group-title="Sút Bóng TV" , 14:00 21/09 ⚽ Bangladesh Women vs Myanmar Women (BLV PIRLO)
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Safari/537.36
 #EXTVLCOPT:http-referrer=https://sutbong.net/
 https://freem3u.xyz/static/no-signal/low.m3u8
-#EXTINF:-1 tvg-logo="https://sta.vnres.co/file/common/20260919/fe84e93b04d2e35d5eaa64fdff2d656e.jpg" group-title="Sút Bóng TV" , 11:00 21/09 🏀 Mongolia W vs South Korea W (BLV HENRY)
+#EXTINF:-1 tvg-logo="https://sta.vnres.co/file/common/20260917/9ce7c8ca8b839151ba0d7ff6f000b870.png" group-title="Sút Bóng TV" , 14:00 21/09 ⚽ Bangladesh Women vs Myanmar Women (T REX)
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Safari/537.36
 #EXTVLCOPT:http-referrer=https://sutbong.net/
 https://freem3u.xyz/static/no-signal/low.m3u8
-#EXTINF:-1 tvg-logo="https://sta.vnres.co/file/common/20260919/fe84e93b04d2e35d5eaa64fdff2d656e.jpg" group-title="Sút Bóng TV" , 11:00 21/09 🏀 Mongolia W vs South Korea W (HUNTER)
+#EXTINF:-1 tvg-logo="https://sta.vnres.co/file/common/20260917/9ce7c8ca8b839151ba0d7ff6f000b870.png" group-title="Sút Bóng TV" , 14:00 21/09 ⚽ Bangladesh Women vs Myanmar Women (BLV COCA)
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Safari/537.36
 #EXTVLCOPT:http-referrer=https://sutbong.net/
 https://freem3u.xyz/static/no-signal/low.m3u8
-#EXTINF:-1 tvg-logo="https://sta.vnres.co/file/common/20260919/fe84e93b04d2e35d5eaa64fdff2d656e.jpg" group-title="Sút Bóng TV" , 11:00 21/09 🏀 Mongolia W vs South Korea W (BRIAN)
+#EXTINF:-1 tvg-logo="https://sta.vnres.co/file/common/20260917/c5e66982261495fcd58ae8b575b11b60.png" group-title="Sút Bóng TV" , 14:00 21/09 ⚽ China Women vs Philippines Women (BLV RÔSI)
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Safari/537.36
 #EXTVLCOPT:http-referrer=https://sutbong.net/
 https://freem3u.xyz/static/no-signal/low.m3u8
-#EXTINF:-1 tvg-logo="https://sta.vnres.co/file/common/20260919/fe84e93b04d2e35d5eaa64fdff2d656e.jpg" group-title="Sút Bóng TV" , 11:00 21/09 🏀 Mongolia W vs South Korea W (A CHÈ)
+#EXTINF:-1 tvg-logo="https://sta.vnres.co/file/common/20260917/c5e66982261495fcd58ae8b575b11b60.png" group-title="Sút Bóng TV" , 14:00 21/09 ⚽ China Women vs Philippines Women (BLV KAN)
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Safari/537.36
 #EXTVLCOPT:http-referrer=https://sutbong.net/
 https://freem3u.xyz/static/no-signal/low.m3u8
-#EXTINF:-1 tvg-logo="https://sta.vnres.co/file/common/20260919/fe84e93b04d2e35d5eaa64fdff2d656e.jpg" group-title="Sút Bóng TV" , 11:00 21/09 🏀 Mongolia W vs South Korea W (KING)
+#EXTINF:-1 tvg-logo="https://sta.vnres.co/file/common/20260917/c5e66982261495fcd58ae8b575b11b60.png" group-title="Sút Bóng TV" , 14:00 21/09 ⚽ China Women vs Philippines Women (ZIDANE)
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Safari/537.36
 #EXTVLCOPT:http-referrer=https://sutbong.net/
 https://freem3u.xyz/static/no-signal/low.m3u8
-#EXTINF:-1 tvg-logo="https://sta.vnres.co/file/common/20260919/fe84e93b04d2e35d5eaa64fdff2d656e.jpg" group-title="Sút Bóng TV" , 11:00 21/09 🏀 Mongolia W vs South Korea W (BLV HENRY)
+#EXTINF:-1 tvg-logo="https://sta.vnres.co/file/common/20260917/c5e66982261495fcd58ae8b575b11b60.png" group-title="Sút Bóng TV" , 14:00 21/09 ⚽ China Women vs Philippines Women (A BỆU)
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Safari/537.36
+#EXTVLCOPT:http-referrer=https://sutbong.net/
+https://freem3u.xyz/static/no-signal/low.m3u8
+#EXTINF:-1 tvg-logo="https://sta.vnres.co/file/common/20260917/c5e66982261495fcd58ae8b575b11b60.png" group-title="Sút Bóng TV" , 14:00 21/09 ⚽ China Women vs Philippines Women (BLV BÉO)
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Safari/537.36
+#EXTVLCOPT:http-referrer=https://sutbong.net/
+https://freem3u.xyz/static/no-signal/low.m3u8
+#EXTINF:-1 tvg-logo="https://sta.vnres.co/file/common/20260917/c5e66982261495fcd58ae8b575b11b60.png" group-title="Sút Bóng TV" , 14:00 21/09 ⚽ China Women vs Philippines Women (HẢI THANH)
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Safari/537.36
 #EXTVLCOPT:http-referrer=https://sutbong.net/
 https://freem3u.xyz/static/no-signal/low.m3u8
@@ -578,46 +414,6 @@ https://freem3u.xyz/static/no-signal/low.m3u8
 #EXTVLCOPT:http-referrer=https://sutbong.net/
 https://freem3u.xyz/static/no-signal/low.m3u8
 #EXTINF:-1 tvg-logo="https://sta.vnres.co/file/common/20260917/cd75765f6d235f024c39cc7e26735322.png" group-title="Sút Bóng TV" , 14:00 21/09 ⚽ Uzbekistan Women vs Hong Kong Women (XUÂN TÓC ĐỎ)
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Safari/537.36
-#EXTVLCOPT:http-referrer=https://sutbong.net/
-https://freem3u.xyz/static/no-signal/low.m3u8
-#EXTINF:-1 tvg-logo="https://sta.vnres.co/file/common/20260917/9ce7c8ca8b839151ba0d7ff6f000b870.png" group-title="Sút Bóng TV" , 14:00 21/09 ⚽ Bangladesh Women vs Myanmar Women (BLV CÒ)
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Safari/537.36
-#EXTVLCOPT:http-referrer=https://sutbong.net/
-https://freem3u.xyz/static/no-signal/low.m3u8
-#EXTINF:-1 tvg-logo="https://sta.vnres.co/file/common/20260917/9ce7c8ca8b839151ba0d7ff6f000b870.png" group-title="Sút Bóng TV" , 14:00 21/09 ⚽ Bangladesh Women vs Myanmar Women (BLV PIRLO)
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Safari/537.36
-#EXTVLCOPT:http-referrer=https://sutbong.net/
-https://freem3u.xyz/static/no-signal/low.m3u8
-#EXTINF:-1 tvg-logo="https://sta.vnres.co/file/common/20260917/9ce7c8ca8b839151ba0d7ff6f000b870.png" group-title="Sút Bóng TV" , 14:00 21/09 ⚽ Bangladesh Women vs Myanmar Women (T REX)
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Safari/537.36
-#EXTVLCOPT:http-referrer=https://sutbong.net/
-https://freem3u.xyz/static/no-signal/low.m3u8
-#EXTINF:-1 tvg-logo="https://sta.vnres.co/file/common/20260917/9ce7c8ca8b839151ba0d7ff6f000b870.png" group-title="Sút Bóng TV" , 14:00 21/09 ⚽ Bangladesh Women vs Myanmar Women (BLV COCA)
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Safari/537.36
-#EXTVLCOPT:http-referrer=https://sutbong.net/
-https://freem3u.xyz/static/no-signal/low.m3u8
-#EXTINF:-1 tvg-logo="https://sta.vnres.co/file/common/20260917/c5e66982261495fcd58ae8b575b11b60.png" group-title="Sút Bóng TV" , 14:00 21/09 ⚽ China Women vs Philippines Women (BLV RÔSI)
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Safari/537.36
-#EXTVLCOPT:http-referrer=https://sutbong.net/
-https://freem3u.xyz/static/no-signal/low.m3u8
-#EXTINF:-1 tvg-logo="https://sta.vnres.co/file/common/20260917/c5e66982261495fcd58ae8b575b11b60.png" group-title="Sút Bóng TV" , 14:00 21/09 ⚽ China Women vs Philippines Women (BLV KAN)
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Safari/537.36
-#EXTVLCOPT:http-referrer=https://sutbong.net/
-https://freem3u.xyz/static/no-signal/low.m3u8
-#EXTINF:-1 tvg-logo="https://sta.vnres.co/file/common/20260917/c5e66982261495fcd58ae8b575b11b60.png" group-title="Sút Bóng TV" , 14:00 21/09 ⚽ China Women vs Philippines Women (ZIDANE)
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Safari/537.36
-#EXTVLCOPT:http-referrer=https://sutbong.net/
-https://freem3u.xyz/static/no-signal/low.m3u8
-#EXTINF:-1 tvg-logo="https://sta.vnres.co/file/common/20260917/c5e66982261495fcd58ae8b575b11b60.png" group-title="Sút Bóng TV" , 14:00 21/09 ⚽ China Women vs Philippines Women (A BỆU)
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Safari/537.36
-#EXTVLCOPT:http-referrer=https://sutbong.net/
-https://freem3u.xyz/static/no-signal/low.m3u8
-#EXTINF:-1 tvg-logo="https://sta.vnres.co/file/common/20260917/c5e66982261495fcd58ae8b575b11b60.png" group-title="Sút Bóng TV" , 14:00 21/09 ⚽ China Women vs Philippines Women (BLV BÉO)
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Safari/537.36
-#EXTVLCOPT:http-referrer=https://sutbong.net/
-https://freem3u.xyz/static/no-signal/low.m3u8
-#EXTINF:-1 tvg-logo="https://sta.vnres.co/file/common/20260917/c5e66982261495fcd58ae8b575b11b60.png" group-title="Sút Bóng TV" , 14:00 21/09 ⚽ China Women vs Philippines Women (HẢI THANH)
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Safari/537.36
 #EXTVLCOPT:http-referrer=https://sutbong.net/
 https://freem3u.xyz/static/no-signal/low.m3u8
@@ -742,6 +538,102 @@ https://freem3u.xyz/static/no-signal/low.m3u8
 #EXTVLCOPT:http-referrer=https://sutbong.net/
 https://freem3u.xyz/static/no-signal/low.m3u8
 #EXTINF:-1 tvg-logo="https://sta.vnres.co/file/common/20260917/0e6f610d5ebb6a4fa34d12874f05bece.png" group-title="Sút Bóng TV" , 17:30 21/09 ⚽ Vietnam Women vs Thailand Women (LÃO LÂM)
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Safari/537.36
+#EXTVLCOPT:http-referrer=https://sutbong.net/
+https://freem3u.xyz/static/no-signal/low.m3u8
+#EXTINF:-1 tvg-logo="https://sta.vnres.co/file/common/20260917/ab6cb57478f78bee1b37f8668317b3de.png" group-title="Sút Bóng TV" , 22:00 21/09 ⚽ FC Otelul Galati vs Corvinul Hunedoara (CURRY)
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Safari/537.36
+#EXTVLCOPT:http-referrer=https://sutbong.net/
+https://freem3u.xyz/static/no-signal/low.m3u8
+#EXTINF:-1 tvg-logo="https://sta.vnres.co/file/common/20260917/ab6cb57478f78bee1b37f8668317b3de.png" group-title="Sút Bóng TV" , 22:00 21/09 ⚽ FC Otelul Galati vs Corvinul Hunedoara (BLV HEHE)
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Safari/537.36
+#EXTVLCOPT:http-referrer=https://sutbong.net/
+https://freem3u.xyz/static/no-signal/low.m3u8
+#EXTINF:-1 tvg-logo="https://sta.vnres.co/file/common/20260917/ab6cb57478f78bee1b37f8668317b3de.png" group-title="Sút Bóng TV" , 22:00 21/09 ⚽ FC Otelul Galati vs Corvinul Hunedoara (NGƯỜI CÁ)
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Safari/537.36
+#EXTVLCOPT:http-referrer=https://sutbong.net/
+https://freem3u.xyz/static/no-signal/low.m3u8
+#EXTINF:-1 tvg-logo="https://sta.vnres.co/file/common/20260917/ab6cb57478f78bee1b37f8668317b3de.png" group-title="Sút Bóng TV" , 22:00 21/09 ⚽ FC Otelul Galati vs Corvinul Hunedoara (CR Bưởi)
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Safari/537.36
+#EXTVLCOPT:http-referrer=https://sutbong.net/
+https://freem3u.xyz/static/no-signal/low.m3u8
+#EXTINF:-1 tvg-logo="https://sta.vnres.co/file/common/20260917/ab6cb57478f78bee1b37f8668317b3de.png" group-title="Sút Bóng TV" , 22:00 21/09 ⚽ FC Otelul Galati vs Corvinul Hunedoara (ZIDANE)
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Safari/537.36
+#EXTVLCOPT:http-referrer=https://sutbong.net/
+https://freem3u.xyz/static/no-signal/low.m3u8
+#EXTINF:-1 tvg-logo="https://sta.vnres.co/file/common/20260917/ab6cb57478f78bee1b37f8668317b3de.png" group-title="Sút Bóng TV" , 22:00 21/09 ⚽ FC Otelul Galati vs Corvinul Hunedoara (BLV A TÚ)
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Safari/537.36
+#EXTVLCOPT:http-referrer=https://sutbong.net/
+https://freem3u.xyz/static/no-signal/low.m3u8
+#EXTINF:-1 tvg-logo="https://sta.vnres.co/file/common/20260917/88be8dd5d6068ef78db27e4b59b9250c.png" group-title="Sút Bóng TV" , 22:00 21/09 ⚽ Umm Salal vs Al Kharaitiyat (BÒ TƯƠI)
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Safari/537.36
+#EXTVLCOPT:http-referrer=https://sutbong.net/
+https://freem3u.xyz/static/no-signal/low.m3u8
+#EXTINF:-1 tvg-logo="https://sta.vnres.co/file/common/20260917/88be8dd5d6068ef78db27e4b59b9250c.png" group-title="Sút Bóng TV" , 22:00 21/09 ⚽ Umm Salal vs Al Kharaitiyat (CACAO)
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Safari/537.36
+#EXTVLCOPT:http-referrer=https://sutbong.net/
+https://freem3u.xyz/static/no-signal/low.m3u8
+#EXTINF:-1 tvg-logo="https://sta.vnres.co/file/common/20260917/88be8dd5d6068ef78db27e4b59b9250c.png" group-title="Sút Bóng TV" , 22:00 21/09 ⚽ Umm Salal vs Al Kharaitiyat (MP3)
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Safari/537.36
+#EXTVLCOPT:http-referrer=https://sutbong.net/
+https://freem3u.xyz/static/no-signal/low.m3u8
+#EXTINF:-1 tvg-logo="https://sta.vnres.co/file/common/20260917/88be8dd5d6068ef78db27e4b59b9250c.png" group-title="Sút Bóng TV" , 22:00 21/09 ⚽ Umm Salal vs Al Kharaitiyat (A PÁO)
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Safari/537.36
+#EXTVLCOPT:http-referrer=https://sutbong.net/
+https://freem3u.xyz/static/no-signal/low.m3u8
+#EXTINF:-1 tvg-logo="https://sta.vnres.co/file/common/20260917/88be8dd5d6068ef78db27e4b59b9250c.png" group-title="Sút Bóng TV" , 22:00 21/09 ⚽ Umm Salal vs Al Kharaitiyat (VINFAST)
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Safari/537.36
+#EXTVLCOPT:http-referrer=https://sutbong.net/
+https://freem3u.xyz/static/no-signal/low.m3u8
+#EXTINF:-1 tvg-logo="https://sta.vnres.co/file/common/20260917/88be8dd5d6068ef78db27e4b59b9250c.png" group-title="Sút Bóng TV" , 22:00 21/09 ⚽ Umm Salal vs Al Kharaitiyat (BLV COCA)
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Safari/537.36
+#EXTVLCOPT:http-referrer=https://sutbong.net/
+https://freem3u.xyz/static/no-signal/low.m3u8
+#EXTINF:-1 tvg-logo="https://sta.vnres.co/file/common/20260917/4278b3d8d0166aeb95c123f4df069dda.png" group-title="Sút Bóng TV" , 22:00 21/09 ⚽ Uniao Leiria U23 vs Gil Vicente U23 (BLV ANH TÀI)
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Safari/537.36
+#EXTVLCOPT:http-referrer=https://sutbong.net/
+https://freem3u.xyz/static/no-signal/low.m3u8
+#EXTINF:-1 tvg-logo="https://sta.vnres.co/file/common/20260917/4278b3d8d0166aeb95c123f4df069dda.png" group-title="Sút Bóng TV" , 22:00 21/09 ⚽ Uniao Leiria U23 vs Gil Vicente U23 (BOSS)
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Safari/537.36
+#EXTVLCOPT:http-referrer=https://sutbong.net/
+https://freem3u.xyz/static/no-signal/low.m3u8
+#EXTINF:-1 tvg-logo="https://sta.vnres.co/file/common/20260917/4278b3d8d0166aeb95c123f4df069dda.png" group-title="Sút Bóng TV" , 22:00 21/09 ⚽ Uniao Leiria U23 vs Gil Vicente U23 (GRAP)
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Safari/537.36
+#EXTVLCOPT:http-referrer=https://sutbong.net/
+https://freem3u.xyz/static/no-signal/low.m3u8
+#EXTINF:-1 tvg-logo="https://sta.vnres.co/file/common/20260917/4278b3d8d0166aeb95c123f4df069dda.png" group-title="Sút Bóng TV" , 22:00 21/09 ⚽ Uniao Leiria U23 vs Gil Vicente U23 (BLV LONG)
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Safari/537.36
+#EXTVLCOPT:http-referrer=https://sutbong.net/
+https://freem3u.xyz/static/no-signal/low.m3u8
+#EXTINF:-1 tvg-logo="https://sta.vnres.co/file/common/20260917/1207a397ea49c1689f04cf29345b43d9.png" group-title="Sút Bóng TV" , 22:15 21/09 ⚽ Xorazm Urganch vs Qizilqum Zarafshon (RỒNG ĐẤT)
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Safari/537.36
+#EXTVLCOPT:http-referrer=https://sutbong.net/
+https://freem3u.xyz/static/no-signal/low.m3u8
+#EXTINF:-1 tvg-logo="https://sta.vnres.co/file/common/20260917/1207a397ea49c1689f04cf29345b43d9.png" group-title="Sút Bóng TV" , 22:15 21/09 ⚽ Xorazm Urganch vs Qizilqum Zarafshon (TUẤN CÙI)
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Safari/537.36
+#EXTVLCOPT:http-referrer=https://sutbong.net/
+https://freem3u.xyz/static/no-signal/low.m3u8
+#EXTINF:-1 tvg-logo="https://sta.vnres.co/file/common/20260917/1207a397ea49c1689f04cf29345b43d9.png" group-title="Sút Bóng TV" , 22:15 21/09 ⚽ Xorazm Urganch vs Qizilqum Zarafshon (NEKO)
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Safari/537.36
+#EXTVLCOPT:http-referrer=https://sutbong.net/
+https://freem3u.xyz/static/no-signal/low.m3u8
+#EXTINF:-1 tvg-logo="https://sta.vnres.co/file/common/20260917/1207a397ea49c1689f04cf29345b43d9.png" group-title="Sút Bóng TV" , 22:15 21/09 ⚽ Xorazm Urganch vs Qizilqum Zarafshon (ĐỖ TÚ TÀI)
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Safari/537.36
+#EXTVLCOPT:http-referrer=https://sutbong.net/
+https://freem3u.xyz/static/no-signal/low.m3u8
+#EXTINF:-1 tvg-logo="https://sta.vnres.co/file/common/20260917/23842fd66573d71c3faa5bc8a960606b.png" group-title="Sút Bóng TV" , 23:00 21/09 ⚽ Werder Bremen Women vs VfB Stuttgart Women (XUÂN TÓC ĐỎ)
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Safari/537.36
+#EXTVLCOPT:http-referrer=https://sutbong.net/
+https://freem3u.xyz/static/no-signal/low.m3u8
+#EXTINF:-1 tvg-logo="https://sta.vnres.co/file/common/20260917/23842fd66573d71c3faa5bc8a960606b.png" group-title="Sút Bóng TV" , 23:00 21/09 ⚽ Werder Bremen Women vs VfB Stuttgart Women (BLV BẢY)
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Safari/537.36
+#EXTVLCOPT:http-referrer=https://sutbong.net/
+https://freem3u.xyz/static/no-signal/low.m3u8
+#EXTINF:-1 tvg-logo="https://sta.vnres.co/file/common/20260917/23842fd66573d71c3faa5bc8a960606b.png" group-title="Sút Bóng TV" , 23:00 21/09 ⚽ Werder Bremen Women vs VfB Stuttgart Women (TRÀ ĐÁ)
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Safari/537.36
+#EXTVLCOPT:http-referrer=https://sutbong.net/
+https://freem3u.xyz/static/no-signal/low.m3u8
+#EXTINF:-1 tvg-logo="https://sta.vnres.co/file/common/20260917/23842fd66573d71c3faa5bc8a960606b.png" group-title="Sút Bóng TV" , 23:00 21/09 ⚽ Werder Bremen Women vs VfB Stuttgart Women (KENCHU)
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Safari/537.36
 #EXTVLCOPT:http-referrer=https://sutbong.net/
 https://freem3u.xyz/static/no-signal/low.m3u8
